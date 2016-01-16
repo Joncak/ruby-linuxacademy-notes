@@ -1,4 +1,13 @@
-<div class="toc"><ul><li><a href="#getting-ready-to-code">Getting Ready to Code</a><ul><li><a href="#course-overview">Course Overview</a></li><li><a href="#whats-a-programming-language">What's a Programming Language?</a></li><li><a href="#installing-ruby">Installing Ruby</a></li><li><a href="#the-ruby-environment">The Ruby Environment</a></li></ul></li><li><a href="#learning-basic-ruby-syntax">Learning Basic Ruby Syntax</a><ul><li><a href="#hello-world">Hello World!</a></li><li><a href="#variables">Variables</a></li><li><a href="#types-of-variables">Types of Variables</a></li><li><a href="#basic-math">Basic Math</a></li><li><a href="#conditionals">Conditionals</a></li><li><a href="#conditionals-continued">Conditionals Continued</a></li><li><a href="#iterators">Iterators</a></li><li><a href="#arrays-and-hashes">Arrays and Hashes</a></li><li><a href="#strings">Strings</a></li><li><a href="#while-loop">While Loop</a></li><li><a href="#for-loop">For Loop</a></li><li><a href="#loop-control">Loop Control</a></li><li><a href="#methods">Methods</a></li><li><a href="#methods-continued">Methods Continued</a></li><li><a href="#using-classes">Using Classes</a></li><li><a href="#creating-classes">Creating Classes</a></li><li><a href="#creating-classes-continued">Creating Classes Continued</a></li><li><a href="#variable-scope-revisited">Variable Scope Revisited</a></li><li><a href="#class-methods-and-singletons">Class Methods and Singletons</a></li></ul></li></ul></div><h1 id="getting-ready-to-code">Getting Ready to Code</h1>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Introduction to Ruby Programming Language on Linux.</title>
+<link rel="stylesheet" href="http://app.classeur.io/base-min.css" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body><div class="export-container"><div class="toc"><ul><li><a href="#getting-ready-to-code">Getting Ready to Code</a><ul><li><a href="#course-overview">Course Overview</a></li><li><a href="#whats-a-programming-language">What's a Programming Language?</a></li><li><a href="#installing-ruby">Installing Ruby</a></li><li><a href="#the-ruby-environment">The Ruby Environment</a></li></ul></li><li><a href="#learning-basic-ruby-syntax">Learning Basic Ruby Syntax</a><ul><li><a href="#hello-world">Hello World!</a></li><li><a href="#variables">Variables</a></li><li><a href="#types-of-variables">Types of Variables</a></li><li><a href="#basic-math">Basic Math</a></li><li><a href="#conditionals">Conditionals</a></li><li><a href="#conditionals-continued">Conditionals Continued</a></li><li><a href="#iterators">Iterators</a></li><li><a href="#arrays-and-hashes">Arrays and Hashes</a></li><li><a href="#strings">Strings</a></li><li><a href="#while-loop">While Loop</a></li><li><a href="#for-loop">For Loop</a></li><li><a href="#loop-control">Loop Control</a></li><li><a href="#methods">Methods</a></li><li><a href="#methods-continued">Methods Continued</a></li><li><a href="#using-classes">Using Classes</a></li><li><a href="#creating-classes">Creating Classes</a></li><li><a href="#creating-classes-continued">Creating Classes Continued</a></li><li><a href="#variable-scope-revisited">Variable Scope Revisited</a></li><li><a href="#class-methods-and-singletons">Class Methods and Singletons</a></li></ul></li></ul></div><h1 id="getting-ready-to-code">Getting Ready to Code</h1>
 <h2 id="course-overview">Course Overview</h2>
 <ul>
 <li>Lo da un instructor que no habia visto antes.</li>
@@ -749,4 +758,5 @@ Ejemplo <code>abc = "abc" ---&gt; def abc.twice</code></li>
 <span class="token class-name">class</span> <span class="token operator">&lt;</span><span class="token operator">&lt;</span> <span class="token constant">TableCorporation</span>
 <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
 <span class="token keyword">end</span> 
-</code></pre>
+</code></pre></div></body>
+</html>
