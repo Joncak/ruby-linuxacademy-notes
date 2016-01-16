@@ -1,118 +1,59 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Ruby-linuxacademy-notes : Notas del Curso con repo de los proyectos.">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-    <title>Ruby-linuxacademy-notes</title>
+    <title>Ruby-linuxacademy-notes by Joncak</title>
   </head>
 
   <body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/Joncak/ruby-linuxacademy-notes">View on GitHub</a>
+    <header>
+      <div class="container">
+        <h1>Ruby-linuxacademy-notes</h1>
+        <h2>Notas del Curso con repo de los proyectos.</h2>
 
-          <h1 id="project_title">Ruby-linuxacademy-notes</h1>
-          <h2 id="project_tagline">Notas del Curso con repo de los proyectos.</h2>
+        <section id="downloads">
+          <a href="https://github.com/Joncak/ruby-linuxacademy-notes/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/Joncak/ruby-linuxacademy-notes/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/Joncak/ruby-linuxacademy-notes" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/Joncak/ruby-linuxacademy-notes/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/Joncak/ruby-linuxacademy-notes/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+    <div class="container">
+      <section id="main_content">
+        <p>[TOC]</p>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>&lt;!DOCTYPE html&gt;
-
-</p>
-
-
-Introduction to Ruby Programming Language on Linux.
-
-
-
-
-<p>
-</p><div>
-<div><ul>
-<li>
-<a href="#getting-ready-to-code">Getting Ready to Code</a><ul>
-<li><a href="#course-overview">Course Overview</a></li>
-<li><a href="#whats-a-programming-language">What's a Programming Language?</a></li>
-<li><a href="#installing-ruby">Installing Ruby</a></li>
-<li><a href="#the-ruby-environment">The Ruby Environment</a></li>
-</ul>
-</li>
-<li>
-<a href="#learning-basic-ruby-syntax">Learning Basic Ruby Syntax</a><ul>
-<li><a href="#hello-world">Hello World!</a></li>
-<li><a href="#variables">Variables</a></li>
-<li><a href="#types-of-variables">Types of Variables</a></li>
-<li><a href="#basic-math">Basic Math</a></li>
-<li><a href="#conditionals">Conditionals</a></li>
-<li><a href="#conditionals-continued">Conditionals Continued</a></li>
-<li><a href="#iterators">Iterators</a></li>
-<li><a href="#arrays-and-hashes">Arrays and Hashes</a></li>
-<li><a href="#strings">Strings</a></li>
-<li><a href="#while-loop">While Loop</a></li>
-<li><a href="#for-loop">For Loop</a></li>
-<li><a href="#loop-control">Loop Control</a></li>
-<li><a href="#methods">Methods</a></li>
-<li><a href="#methods-continued">Methods Continued</a></li>
-<li><a href="#using-classes">Using Classes</a></li>
-<li><a href="#creating-classes">Creating Classes</a></li>
-<li><a href="#creating-classes-continued">Creating Classes Continued</a></li>
-<li><a href="#variable-scope-revisited">Variable Scope Revisited</a></li>
-<li><a href="#class-methods-and-singletons">Class Methods and Singletons</a></li>
-</ul>
-</li>
-</ul></div>
-<h1 id="getting-ready-to-code">
+<h1>
 <a id="getting-ready-to-code" class="anchor" href="#getting-ready-to-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getting Ready to Code</h1>
 
-<h2 id="course-overview">
+<h2>
 <a id="course-overview" class="anchor" href="#course-overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Course Overview</h2>
 
 <ul>
 <li>Lo da un instructor que no habia visto antes.</li>
-<li>Es bastante Completo.</li>
-</ul>
-
-<h2 id="whats-a-programming-language">
-<a id="whats-a-programming-language" class="anchor" href="#whats-a-programming-language" aria-hidden="true"><span class="octicon octicon-link"></span></a>What’s a Programming Language?</h2>
+<li>Es bastante Completo.
+## What's a Programming Language?
 
 <ul>
 <li>binary es lo que lee el procesador, despues hicieron asembly pero este fue reemplado por Fortran y Cobol</li>
 <li>C y C++ son Compiled Languages mientras que Ruby, php, javascript son Scripting languages</li>
-<li>Existen 2 styles de Programar o la manera de organizarse el codigo
-<ul>
-<li>Procedular es similar a los script corren desde el comienzo al final</li>
+<li>Existen 2 styles de Programar o la manera de organizarse el codigo </li>
+<li>Procedular es similar a los script corren desde el comienzo al final </li>
 <li>Object Oriented; son objetos se definen maneras de manipularlo</li>
-</ul>
-
-<p></p>
-</li>
 <li>Ruby pertenece a los 2 estilos pero es facil de leer,</li>
 <li>Uno de los framework mas famosos de ruby es ruby on rails</li>
-<li>El curso esta enfocado en scripting task.</li>
-</ul>
+<li>El curso esta enfocado en scripting task.
+## Installing Ruby </li>
+<li>Existen 2 maneras de instalar ruby </li>
+<li>Packages managers 
 
-<h2 id="installing-ruby">
-<a id="installing-ruby" class="anchor" href="#installing-ruby" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installing Ruby</h2>
-
-<ul>
-<li>Existen 2 maneras de instalar ruby
-<ul>
-<li>Packages managers
 <ul>
 <li>
 <strong>Centos</strong>  <code>yum install ruby irb rubygems</code>
@@ -121,92 +62,53 @@ Introduction to Ruby Programming Language on Linux.
 <strong>Ubuntu</strong> <code>apt-get install ruby</code>
 </li>
 </ul>
-
-<p></p>
 </li>
-<li>RVM
+<li>RVM 
 
 <ul>
 <li>el cual es un proceso manual pero con mas opciones.</li>
 <li>Para instalar RVM buscamos en su pagina <a href="rvm.io">rvm.io</a> y lo descargamos luego lanzamos; <code>rvm install ruby</code>
-</li>
-</ul>
-
-<p></p>
-</li>
+## The Ruby Environment</li>
 </ul>
 </li>
-</ul>
-
-<h2 id="the-ruby-environment">
-<a id="the-ruby-environment" class="anchor" href="#the-ruby-environment" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Ruby Environment</h2>
-
-<ul>
 <li>Los  archivos de scripts son .rb</li>
-<li>Usaremos 3 programas con ruby
-<ul>
-<li>ruby: compilador</li>
-<li>irb: shell</li>
-<li>gem: instalador de extensiones y plugins.</li>
-</ul>
-
-<p></p>
+<li>Usaremos 3 programas con ruby </li>
+<li>ruby: compilador </li>
+<li>irb: shell<br>
 </li>
+<li>gem: instalador de extensiones y plugins.</li>
 <li>puts == echo e igual es recomendable usar el shibang para evitar usar el <code>ruby example.rb</code>
 </li>
 <li>IRB es una shell como la que tiene python donde todos los comandos se comunican con el compilador.</li>
 <li>cuando sale =&gt; nill es totalmente normal.</li>
-<li>gems es util para instalar librerias, y muchas funcionalidades extras.</li>
-</ul>
-
-<h1 id="learning-basic-ruby-syntax">
-<a id="learning-basic-ruby-syntax" class="anchor" href="#learning-basic-ruby-syntax" aria-hidden="true"><span class="octicon octicon-link"></span></a>Learning Basic Ruby Syntax</h1>
-
-<h2 id="hello-world">
-<a id="hello-world" class="anchor" href="#hello-world" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hello World!</h2>
-
-<ul>
-<li>puts es un method y el Hello word es un argumento</li>
-<li>Methods= encapsulate code can use arguments</li>
-<li>Para multiples arguments separarlos con “,”</li>
+<li>gems es util para instalar librerias, y muchas funcionalidades extras.
+# Learning Basic Ruby Syntax
+## Hello World! </li>
+<li> puts es un method y el Hello word es un argumento</li>
+<li> Methods= encapsulate code can use arguments</li>
+<li>Para multiples arguments separarlos con ","</li>
 <li>Otra forma es usando <strong>();</strong> example; <code>puts("Hello World")</code>
-</li>
-</ul>
-
-<h2 id="variables">
-<a id="variables" class="anchor" href="#variables" aria-hidden="true"><span class="octicon octicon-link"></span></a>Variables</h2>
-
-<ul>
+## Variables </li>
 <li>Crear las variables es muy similar a otros lenguajes pero añade nuevas clasificaciones.</li>
 <li>Existen varias variables que pueden empezar con @ o @@ incluso $</li>
 <li>Las vaiables pueden ser; locales, instance, certain places,</li>
 <li>ademas de variables existen constantes que no pueden cambiar y empiezAN con MAYUSCULA.</li>
-<li>esta manera de declarar variables solo funciona para numeros. a no ser que usemos ’ ’ para string.</li>
-</ul>
-
-<h2 id="types-of-variables">
-<a id="types-of-variables" class="anchor" href="#types-of-variables" aria-hidden="true"><span class="octicon octicon-link"></span></a>Types of Variables</h2>
-
-<ul>
-<li>Existen 2 varios tipos de variables
-<ul>
-<li>Litterals = le damos valores explicitamente</li>
+<li>esta manera de declarar variables solo funciona para numeros. a no ser que usemos ' ' para string.
+## Types of Variables</li>
+<li>Existen 2 varios tipos de variables </li>
+<li>Litterals = le damos valores explicitamente </li>
 <li>Variables= los cuales son link a valores.</li>
-</ul>
-
-<p></p>
+<li>Los mas famosos son:<br>
 </li>
-<li>Los mas famosos son:
-
-<ul>
 <li>
 <strong>numbers:</strong> en los numbers existen integers y floats, dentro de Integers existe bignum o fixnum</li>
 <li>
 <strong>booleans:</strong> son los tipicos true o false.</li>
 <li>
-<strong>strings:</strong> son los textos</li>
+<strong>strings:</strong> son los textos </li>
 <li>
 <strong>arrays:</strong> su caracteristica es que son filas y estas pueden ser acumuladas pero colocadas al final si no se quiere reemplazar al anterior.
+
 <ul>
 <li>ex: <code>array = [1,2,3]</code>
 </li>
@@ -216,8 +118,6 @@ Introduction to Ruby Programming Language on Linux.
 <li>todos los valores deben estar en el <code>[]</code> y separarse por <code>,</code>
 </li>
 </ul>
-
-<p></p>
 </li>
 <li>
 <strong>hashes:</strong> similas al array pero en vez de listar por numeros listamos por keys
@@ -227,19 +127,9 @@ Introduction to Ruby Programming Language on Linux.
 <code>my_hash = "string" =&gt; "my string", "my number" =&gt; 4</code> luego llamamos con <code>my_hast ["simple string"]</code>
 </li>
 </ul>
-
-<p></p>
-</li>
-</ul>
 </li>
 <li>Podemos asignar un valor a un array o hash existente puede crearse vacio con <code>my array []</code>
-</li>
-</ul>
-
-<h2 id="basic-math">
-<a id="basic-math" class="anchor" href="#basic-math" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic Math</h2>
-
-<ul>
+## Basic Math</li>
 <li>las math son las nomales pero existe una % que es modulus no se que hace.</li>
 <li>si existe una variable podemos llamarla sin los <code>""</code> o <code>''</code>
 </li>
@@ -249,265 +139,244 @@ Introduction to Ruby Programming Language on Linux.
 <li>
 <code>.to_i</code>  a entero o integer.</li>
 <li>
-<code>.to_f</code> to float o decimal
-<ul>
-<li>ex: <code>irb(main):001:0&gt; 12.to_f =&gt; 12.0</code>
-</li>
-</ul>
-
-<p></p>
-</li>
-</ul>
-
-<h2 id="conditionals">
-<a id="conditionals" class="anchor" href="#conditionals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conditionals</h2>
-
-<ul>
-<li>Los conditionals son buenisimos.<br>
+<code>.to_f</code> to float o decimal </li>
+<li>ex: <code>irb(main):001:0&gt; 12.to_f
+=&gt; 12.0</code>
+## Conditionals</li>
+<li>Los conditionals son buenisimos.
 ex:</li>
 </ul>
+</li>
+</ul>
 
-<pre><code> if my_variable &gt; 10
+<div class="highlight highlight-source-ruby"><pre> <span class="pl-k">if</span> my_variable <span class="pl-k">&gt;</span> <span class="pl-c1">10</span>
 puts my_variable
-end
-</code></pre>
+<span class="pl-k">end</span></pre></div>
 
 <ul>
 <li>los extended conditional es cuando añadimos un <strong>else</strong>, el cual corre si la condicion es falsa.</li>
 <li>tambien podemos usamos <strong>elsif</strong> que permite añadir otro if si la primera condicion es falsa.</li>
-<li>En ruby podemos usar conditionals en una sola linea por ejemplo<br>
-<code>puts "Big Number" if my_variable &gt; 10</code><br>
+<li>En ruby podemos usar conditionals en una sola linea por ejemplo
+<code>puts "Big Number" if my_variable &gt; 10</code>
 <code>puts "Small Number" unless my_variable &gt; 10</code>
 </li>
 <li>la condicion <strong>unless</strong> tambien podemos usarla y es una negacion hasta que ocurra.</li>
 </ul>
 
-<pre><code>unless my_variable &gt; 10
+<div class="highlight highlight-source-ruby"><pre><span class="pl-k">unless</span> my_variable <span class="pl-k">&gt;</span> <span class="pl-c1">10</span>
     puts my_variable
-end 
-</code></pre>
+<span class="pl-k">end</span> </pre></div>
 
 <ul>
 <li>Otra forma de hacerlo en una linea es usando la <strong>Ternary Statement</strong>
+
 <ul>
 <li>Regular Statement.</li>
 </ul>
-
-<p></p>
 </li>
 </ul>
 
-<pre><code>if my_variable &gt; 10
-    puts "big"
-else 
-    puts "small" 
-end 
-</code></pre>
+<div class="highlight highlight-source-ruby"><pre><span class="pl-k">if</span> my_variable <span class="pl-k">&gt;</span> <span class="pl-c1">10</span>
+    puts <span class="pl-s"><span class="pl-pds">"</span>big<span class="pl-pds">"</span></span>
+<span class="pl-k">else</span> 
+    puts <span class="pl-s"><span class="pl-pds">"</span>small<span class="pl-pds">"</span></span> 
+<span class="pl-k">end</span> </pre></div>
 
 <pre><code>* Ternary Statement 
 </code></pre>
 
-<p><code>my_variable &gt; 10 ? puts("big") : puts("small")</code><br>
-<strong>#donde el <code>?</code> seria un <strong>if</strong> y el <code>:</code> un <strong>else</strong>, es necesario usar parentesis.</strong></p>
+<p><code>my_variable &gt; 10 ? puts("big") : puts("small")</code>
+ <strong>#donde el <code>?</code> seria un **if</strong> y el <code>:</code> un <strong>else</strong>, es necesario usar parentesis.**</p>
 
 <ul>
 <li>tambien existen los comparison tests donde
+
 <ul>
-<li>a &gt; b</li>
+<li>a &gt; b </li>
 <li>a &lt; b</li>
 <li>a &gt;= b</li>
-<li>a &lt;= b</li>
+<li>a &lt;= b </li>
 <li>a == b</li>
 </ul>
-
-<p></p>
 </li>
 <li>Un ex de un script con condiciones.</li>
 </ul>
 
-<pre><code>puts "Input an integer"
-user_input = gets.to_i
-if user_input &gt; 10
-output = user_input * user_inpu
-else
-output = user_input * 2
-end
-puts output
-</code></pre>
+<div class="highlight highlight-source-ruby"><pre>puts <span class="pl-s"><span class="pl-pds">"</span>Input an integer<span class="pl-pds">"</span></span>
+user_input <span class="pl-k">=</span> gets.to_i
+<span class="pl-k">if</span> user_input <span class="pl-k">&gt;</span> <span class="pl-c1">10</span>
+output <span class="pl-k">=</span> user_input <span class="pl-k">*</span> user_inpu
+<span class="pl-k">else</span>
+output <span class="pl-k">=</span> user_input <span class="pl-k">*</span> <span class="pl-c1">2</span>
+<span class="pl-k">end</span>
+puts output</pre></div>
 
-<h2 id="conditionals-continued">
+<h2>
 <a id="conditionals-continued" class="anchor" href="#conditionals-continued" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conditionals Continued</h2>
 
 <ul>
-<li>Un script puede tener varios elsif de ser necesario.</li>
+<li>Un script puede tener varios elsif de ser necesario. </li>
 <li><img src="https://i.imgur.com/mwL2jhB.png" alt="Puedes tener varios elsif"></li>
-<li>Pero es posible usar case que es mucho mas facil de leer.<br>
+<li>Pero es posible usar case que es mucho mas facil de leer.
 <img src="https://i.imgur.com/MhtxIPN.png" alt="enter image description here">
 </li>
-<li>Es posible añadir multiples conditionals
-<ul>
-<li>Boolean AND<br>
-<code>if my_var == 10 &amp;&amp; your_var == 5</code> Aca se tienen que cumplir los 2 para que se pueda correr.</li>
-<li>Boolean OR<br>
-<code>if my_var ==10 || your_var == 5</code> Aca si cualquier de los 2 es verdadero el statement se aplica.</li>
-<li>Boolean NOT<br>
-<code>if my_var != 10</code> Si no es igual se lanza el statement.</li>
-<li>Ejemplo con condicionales.</li>
-</ul>
+<li>Es posible añadir multiples conditionals 
 
-<p></p>
+<ul>
+<li>Boolean AND
+<code>if my_var == 10 &amp;&amp; your_var == 5</code> Aca se tienen que cumplir los 2 para que se pueda correr.</li>
+<li>Boolean OR 
+<code>if my_var ==10 || your_var == 5</code> Aca si cualquier de los 2 es verdadero el statement se aplica.</li>
+<li>Boolean NOT
+<code>if my_var != 10</code> Si no es igual se lanza el statement.</li>
+<li>Ejemplo con condicionales. </li>
+</ul>
 </li>
 </ul>
 
-<pre><code>!#/usr/bin/ruby
+<div class="highlight highlight-source-ruby"><pre>!<span class="pl-c">#/usr/bin/ruby</span>
 
-puts "En tu escritorio tienes un Telefono (Y/N)"
-case gets
-        when "Y\n"
-                phone  = true
-        when "N\n"
-                phone = false
-end
-puts "En tu escritorio tienes un lapiz (Y/N)"
-case gets
-        when "Y\n"
-                pencil  = true
-        when "N\n"
-                pencil = false
-end
-puts "You have a phone" if phone
-puts "You have a pencil" if pencil
-</code></pre>
+puts <span class="pl-s"><span class="pl-pds">"</span>En tu escritorio tienes un Telefono (Y/N)<span class="pl-pds">"</span></span>
+<span class="pl-k">case</span> gets
+        <span class="pl-k">when</span> <span class="pl-s"><span class="pl-pds">"</span>Y<span class="pl-cce">\n</span><span class="pl-pds">"</span></span>
+                phone  <span class="pl-k">=</span> <span class="pl-c1">true</span>
+        <span class="pl-k">when</span> <span class="pl-s"><span class="pl-pds">"</span>N<span class="pl-cce">\n</span><span class="pl-pds">"</span></span>
+                phone <span class="pl-k">=</span> <span class="pl-c1">false</span>
+<span class="pl-k">end</span>
+puts <span class="pl-s"><span class="pl-pds">"</span>En tu escritorio tienes un lapiz (Y/N)<span class="pl-pds">"</span></span>
+<span class="pl-k">case</span> gets
+        <span class="pl-k">when</span> <span class="pl-s"><span class="pl-pds">"</span>Y<span class="pl-cce">\n</span><span class="pl-pds">"</span></span>
+                pencil  <span class="pl-k">=</span> <span class="pl-c1">true</span>
+        <span class="pl-k">when</span> <span class="pl-s"><span class="pl-pds">"</span>N<span class="pl-cce">\n</span><span class="pl-pds">"</span></span>
+                pencil <span class="pl-k">=</span> <span class="pl-c1">false</span>
+<span class="pl-k">end</span>
+puts <span class="pl-s"><span class="pl-pds">"</span>You have a phone<span class="pl-pds">"</span></span> <span class="pl-k">if</span> phone
+puts <span class="pl-s"><span class="pl-pds">"</span>You have a pencil<span class="pl-pds">"</span></span> <span class="pl-k">if</span> pencil</pre></div>
 
-<h2 id="iterators">
+<h2>
 <a id="iterators" class="anchor" href="#iterators" aria-hidden="true"><span class="octicon octicon-link"></span></a>Iterators</h2>
 
 <ul>
-<li>Los iterators son ideales para operar cada miembro de una variable por ejemplo los array si quisieramos mostrar cada miembro de un array seria como:</li>
-</ul>
+<li>
+<p>Los iterators son ideales para operar cada miembro de una variable por ejemplo los array si quisieramos mostrar cada miembro de un array seria como: </p>
 
-<p><strong>Whitout Iterators</strong><br>
-     <code>puts first_five_integers [0]</code><br>
-     <code>puts first_five_integers [1]</code><br>
-     <code>puts first_five_integers [2]</code><br>
-     <code>puts first_five_integers [3]</code><br>
-     <code>puts first_five_integers [4]</code></p>
+<p><strong>Whitout Iterators</strong>
+   <code>puts first_five_integers [0]</code>
+   <code>puts first_five_integers [1]</code>
+   <code>puts first_five_integers [2]</code>
+   <code>puts first_five_integers [3]</code>
+   <code>puts first_five_integers [4]</code></p>
 
 <p><strong>Con Iterators seria mucha mas sencillo</strong></p>
+</li>
+</ul>
 
-<pre><code>first_five_integers.each do |my_integer| 
+<div class="highlight highlight-source-ruby"><pre>first_five_integers.each <span class="pl-k">do </span>|<span class="pl-smi">my_integer</span>| 
     puts my_integer 
-end 
-</code></pre>
+<span class="pl-k">end</span> </pre></div>
 
 <ul>
-<li>Como each es considerado un Method puede usar arguments pero en este caso el puede usar un block como argument para que tome el block of code debemos colocarlo entre do y end</li>
-<li>Tambien es posible suplir una variable al block con each definiendola entre | | despues del do y tendra el valor de cada miembro del array.</li>
-<li>Los iterators actuan como loops para collections.</li>
-<li>DRY = Do not Repeat Yourself</li>
+<li>Como each es considerado un Method puede usar arguments pero en este caso el puede usar un block como argument para que tome el block of code debemos colocarlo entre do y end </li>
+<li> Tambien es posible suplir una variable al block con each definiendola entre | | despues del do y tendra el valor de cada miembro del array.</li>
+<li> Los iterators actuan como loops para collections.</li>
+<li>DRY = Do not Repeat Yourself </li>
 <li>El earch puede ser usado en un hash y se pueden suplir 2 variables la key y el value.</li>
 </ul>
 
-<pre><code>my_hash = {"orange" =&gt; true, "banana" =&gt; false}
-my_hash.each do | key,value | 
+<div class="highlight highlight-source-ruby"><pre>my_hash <span class="pl-k">=</span> {<span class="pl-s"><span class="pl-pds">"</span>orange<span class="pl-pds">"</span></span> =&gt; <span class="pl-c1">true</span>, <span class="pl-s"><span class="pl-pds">"</span>banana<span class="pl-pds">"</span></span> =&gt; <span class="pl-c1">false</span>}
+my_hash.each <span class="pl-k">do </span>| <span class="pl-smi">key</span>,<span class="pl-smi">value</span> | 
 ...
-end 
-</code></pre>
+<span class="pl-k">end</span> </pre></div>
 
-<p>Ejemplo de una lista de Compras</p>
+<p>Ejemplo de una lista de Compras </p>
 
-<pre><code>#!/usr/bin/ruby                                                                                                                                       
-# Declaramos el Hash con los Valores que queramos incluir.                                                                                            
-grocery_items = { "oranges" =&gt; false, "bananas" =&gt; false}                                                                                             
-#Preguntamos lo que necesitamos usando el Iterator y suplimos 2 variables item y need_for_item.                                                       
-puts "Do you need:"                                                                                                                                   
-grocery_items.each do | item, need_for_item | # Aqui solo declaramos y preparamos las variables.                                                      
-  puts item + "? (Y/N)" #Aqui es donde preguntamos.                                                                                                   
-  case gets                                                                                                                                           
-    when "Y\n"                                                                                                                                        
-      grocery_items [item] = true                                                                                                                     
-    when "N\n"                                                                                                                                        
-      grocery_items [item] = false                                                                                                                    
-  end                                                                                                                                                 
-end                                                                                                                                                   
-puts "Here's your list:"                                                                                                                              
-grocery_items.each do | item, need_for_item |                                                                                                         
-  puts item if need_for_item #Aqui aun no entiendo pero supongo que si es true se cumple la sentencia.                                                
-end    
-</code></pre>
+<div class="highlight highlight-source-ruby"><pre><span class="pl-c">#!/usr/bin/ruby                                                                                                                                       </span>
+<span class="pl-c"># Declaramos el Hash con los Valores que queramos incluir.                                                                                            </span>
+grocery_items <span class="pl-k">=</span> { <span class="pl-s"><span class="pl-pds">"</span>oranges<span class="pl-pds">"</span></span> =&gt; <span class="pl-c1">false</span>, <span class="pl-s"><span class="pl-pds">"</span>bananas<span class="pl-pds">"</span></span> =&gt; <span class="pl-c1">false</span>}                                                                                             
+<span class="pl-c">#Preguntamos lo que necesitamos usando el Iterator y suplimos 2 variables item y need_for_item.                                                       </span>
+puts <span class="pl-s"><span class="pl-pds">"</span>Do you need:<span class="pl-pds">"</span></span>                                                                                                                                   
+grocery_items.each <span class="pl-k">do </span>| <span class="pl-smi">item</span>, <span class="pl-smi">need_for_item</span> | <span class="pl-c"># Aqui solo declaramos y preparamos las variables.                                                      </span>
+  puts item <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">"</span>? (Y/N)<span class="pl-pds">"</span></span> <span class="pl-c">#Aqui es donde preguntamos.                                                                                                   </span>
+  <span class="pl-k">case</span> gets                                                                                                                                           
+    <span class="pl-k">when</span> <span class="pl-s"><span class="pl-pds">"</span>Y<span class="pl-cce">\n</span><span class="pl-pds">"</span></span>                                                                                                                                        
+      grocery_items [item] <span class="pl-k">=</span> <span class="pl-c1">true</span>                                                                                                                     
+    <span class="pl-k">when</span> <span class="pl-s"><span class="pl-pds">"</span>N<span class="pl-cce">\n</span><span class="pl-pds">"</span></span>                                                                                                                                        
+      grocery_items [item] <span class="pl-k">=</span> <span class="pl-c1">false</span>                                                                                                                    
+  <span class="pl-k">end</span>                                                                                                                                                 
+<span class="pl-k">end</span>                                                                                                                                                   
+puts <span class="pl-s"><span class="pl-pds">"</span>Here's your list:<span class="pl-pds">"</span></span>                                                                                                                              
+grocery_items.each <span class="pl-k">do </span>| <span class="pl-smi">item</span>, <span class="pl-smi">need_for_item</span> |                                                                                                         
+  puts item <span class="pl-k">if</span> need_for_item <span class="pl-c">#Aqui aun no entiendo pero supongo que si es true se cumple la sentencia.                                                </span>
+<span class="pl-k">end</span>    </pre></div>
 
-<h2 id="arrays-and-hashes">
+<h2>
 <a id="arrays-and-hashes" class="anchor" href="#arrays-and-hashes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Arrays and Hashes</h2>
 
 <ul>
-<li>Podemos usar nested arrays los cuales se llaman multi.dimensional arrays.<br>
-<code>childhood_games_played = [["make believe", true], ["tag", false]]</code>
+<li>Podemos usar nested arrays los cuales se llaman multi.dimensional arrays. 
+<code>childhood_games_played  = [["make believe", true], ["tag", false]]</code>
 </li>
-<li>Luego para llamar a los juegos debemos usar</li>
+<li>Luego para llamar a los juegos debemos usar </li>
 </ul>
 
-<pre><code>childhood_games_played [0][0]
-    "make believe"
-childhood_games_played [1][0]
-    "tag"
-childhood_games_played [0][1]
-    "true"
-childhood_games_played [1][1]
-    "false"
-</code></pre>
+<div class="highlight highlight-source-ruby"><pre>childhood_games_played [<span class="pl-c1">0</span>][<span class="pl-c1">0</span>]
+    <span class="pl-s"><span class="pl-pds">"</span>make believe<span class="pl-pds">"</span></span>
+childhood_games_played [<span class="pl-c1">1</span>][<span class="pl-c1">0</span>]
+    <span class="pl-s"><span class="pl-pds">"</span>tag<span class="pl-pds">"</span></span>
+childhood_games_played [<span class="pl-c1">0</span>][<span class="pl-c1">1</span>]
+    <span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+childhood_games_played [<span class="pl-c1">1</span>][<span class="pl-c1">1</span>]
+    <span class="pl-s"><span class="pl-pds">"</span>false<span class="pl-pds">"</span></span></pre></div>
 
 <ul>
-<li>Los hashes tambien pueden ser nested.<br>
+<li>Los hashes tambien pueden ser nested.
 <code>cocktails = {"martini" =&gt; {"vodka" =&gt; true, "gin" =&gt; false}}</code>
 </li>
-<li>Luego para llamarlos usamos</li>
+<li>Luego para llamarlos usamos </li>
 </ul>
 
-<pre><code>cocktails["martini"]["vodka"]
-    true
-cocktails["martini"]["gin"]
-    false 
-</code></pre>
+<div class="highlight highlight-source-ruby"><pre>cocktails[<span class="pl-s"><span class="pl-pds">"</span>martini<span class="pl-pds">"</span></span>][<span class="pl-s"><span class="pl-pds">"</span>vodka<span class="pl-pds">"</span></span>]
+    <span class="pl-c1">true</span>
+cocktails[<span class="pl-s"><span class="pl-pds">"</span>martini<span class="pl-pds">"</span></span>][<span class="pl-s"><span class="pl-pds">"</span>gin<span class="pl-pds">"</span></span>]
+    <span class="pl-c1">false</span> </pre></div>
 
 <ul>
-<li>Podemos ordenar los array con el method <strong>.sort</strong><br>
+<li>Podemos ordenar los array con el method <strong>.sort</strong>
 <code>my_array.sort</code> devuelve un array ordenado.</li>
 <li>En caso de querer ordenar el array en uso usamos <code>mv_array.sort!</code>
 </li>
-<li>Es posible al igual que con each usarlo en block of codes</li>
+<li>Es posible al igual que con each usarlo en block of codes </li>
 </ul>
 
-<pre><code>my_array.sort do |a,b| 
+<div class="highlight highlight-source-ruby"><pre>my_array.sort <span class="pl-k">do </span>|<span class="pl-smi">a</span>,<span class="pl-smi">b</span>| 
 
-    a &lt;=&gt; b #Diferencia quien esta primero.
- 
-end 
-</code></pre>
+    a <span class="pl-k">&lt;=&gt;</span> b <span class="pl-c">#Diferencia quien esta primero.</span>
+
+<span class="pl-k">end</span> </pre></div>
 
 <ul>
-<li>Para saber la longitud de un array es posible usar los method<br>
-<strong>.count</strong><br>
+<li>Para saber la longitud de un array es posible usar los method 
+<strong>.count</strong>
 <strong>.length</strong>
 </li>
-<li>Para revisar si en el array existe un valor es posible usar el method <strong>.include</strong><br>
-<code>first_five_integers.include? 1</code> Es importante usar el ?</li>
+<li>Para revisar si en el array existe un valor es posible usar el method <strong>.include</strong>
+<code>first_five_integers.include? 1</code> Es importante usar el ? </li>
 <li>Es posible crear un array a partir de otro usando <strong>.map</strong> un buen ejemplo es para calcular si unos numeros de un array son pares o impares.</li>
 </ul>
 
-<pre><code>my_array = [1,2,3]
-odd_or_even = my_array.map do |element|
-    element % 2 == 0 ? "even" : "odd"
-    end  
-</code></pre>
+<div class="highlight highlight-source-ruby"><pre>my_array <span class="pl-k">=</span> [<span class="pl-c1">1</span>,<span class="pl-c1">2</span>,<span class="pl-c1">3</span>]
+odd_or_even <span class="pl-k">=</span> my_array.map <span class="pl-k">do </span>|<span class="pl-smi">element</span>|
+    element <span class="pl-k">%</span> <span class="pl-c1">2</span> <span class="pl-k">==</span> <span class="pl-c1">0</span> <span class="pl-k">?</span> <span class="pl-s"><span class="pl-pds">"</span>even<span class="pl-pds">"</span></span> : <span class="pl-s"><span class="pl-pds">"</span>odd<span class="pl-pds">"</span></span>
+    <span class="pl-k">end</span>  </pre></div>
 
-<h2 id="strings">
+<h2>
 <a id="strings" class="anchor" href="#strings" aria-hidden="true"><span class="octicon octicon-link"></span></a>Strings</h2>
 
 <ul>
 <li>Se deben colocar las String en <code>""</code> para que ruby pueda identificarlas.</li>
-<li>Llamar las variables es diferente que en bash para llamar una variable entre strings usamos #{variable}<br>
+<li> Llamar las variables es diferente que en bash para llamar una variable entre strings usamos #{variable}
 <code>puts "Your have #{bank_account} dollars."</code>Sin necesita de cerrar los " podemos incluir la variable e imprimir en una sola linea.</li>
-<li>Podemos sumar operaciones matematicas dentro de lo {}<br>
+<li>Podemos sumar operaciones matematicas dentro de lo {} 
 <code>puts "Tiene en total #{banesco + bod}bs. entre todas sus cuentas."</code>
 </li>
 <li>Podemos sumar string con string en caso de ser string y integers daria error.</li>
@@ -517,171 +386,154 @@ odd_or_even = my_array.map do |element|
 <li>Un pequeño ejemplo</li>
 </ul>
 
-<pre><code>puts "Insertar una frase"
-palabra = gets
-numero_palabras = palabra.split(" ").count
-puts "Tu frase tiene #{numero_palabras} palabra#{numero_palabras == 1 ? "." : "s."}"
-</code></pre>
+<div class="highlight highlight-source-ruby"><pre>puts <span class="pl-s"><span class="pl-pds">"</span>Insertar una frase<span class="pl-pds">"</span></span>
+palabra <span class="pl-k">=</span> gets
+numero_palabras <span class="pl-k">=</span> palabra.split(<span class="pl-s"><span class="pl-pds">"</span> <span class="pl-pds">"</span></span>).count
+puts <span class="pl-s"><span class="pl-pds">"</span>Tu frase tiene <span class="pl-pse">#{</span><span class="pl-s1">numero_palabras</span><span class="pl-pse"><span class="pl-s1">}</span></span> palabra<span class="pl-pse">#{</span><span class="pl-s1">numero_palabras <span class="pl-k">==</span> <span class="pl-c1">1</span> <span class="pl-k">?</span> <span class="pl-s"><span class="pl-pds">"</span>.<span class="pl-pds">"</span></span> : <span class="pl-s"><span class="pl-pds">"</span>s.<span class="pl-pds">"</span></span></span><span class="pl-pse"><span class="pl-s1">}</span></span><span class="pl-pds">"</span></span></pre></div>
 
-<h2 id="while-loop">
+<h2>
 <a id="while-loop" class="anchor" href="#while-loop" aria-hidden="true"><span class="octicon octicon-link"></span></a>While Loop</h2>
 
 <ul>
 <li>Repite una seccion del codigo hasta que una condicion sea cierta, para evitar que sea un loop infinito la variable debe cambiar.</li>
-<li>La syntax seria while condition do y un end es bueno añadir un contador al final de la sentencia ex: my_integer += 1</li>
+<li>La syntax seria while condition do y un end es bueno añadir un contador al final de la sentencia ex: my_integer += 1 </li>
 </ul>
 
-<pre><code>my_var = 10
+<div class="highlight highlight-source-ruby"><pre>my_var <span class="pl-k">=</span> <span class="pl-c1">10</span>
 
-while my_var &lt; 30 do 
-    puts "my_var = #{my_var}"
- my_var += 1 
-end 
-</code></pre>
+<span class="pl-k">while</span> my_var <span class="pl-k">&lt;</span> <span class="pl-c1">30</span> <span class="pl-k">do </span>
+    puts <span class="pl-s"><span class="pl-pds">"</span>my_var = <span class="pl-pse">#{</span><span class="pl-s1">my_var</span><span class="pl-pse"><span class="pl-s1">}</span></span><span class="pl-pds">"</span></span>
+    my_var <span class="pl-k">+=</span> <span class="pl-c1">1</span> 
+<span class="pl-k">end</span> </pre></div>
 
 <ul>
-<li>El program block va entre el do y el end.</li>
+<li>El program block va entre el do y el end. </li>
 <li>Es importante saber que si usamos " " no podemos llamar una variable a no ser que usemos el #{}.</li>
 <li>loops and arrays: the perfect match.</li>
 <li>El until loop es totalmente inverso.</li>
 <li>Un ejemplo de ordenar los enteros.</li>
 </ul>
 
-<pre><code>integers = []
-current_integer = 0 
-while current_integer &lt; 10 do 
-puts "Type an integer"
-integers[current_integer] = gets.to_i
-    current_integer+=1
-end 
+<div class="highlight highlight-source-ruby"><pre>integers <span class="pl-k">=</span> []
+current_integer <span class="pl-k">=</span> <span class="pl-c1">0</span> 
+<span class="pl-k">while</span> current_integer <span class="pl-k">&lt;</span> <span class="pl-c1">10</span> <span class="pl-k">do </span>
+puts <span class="pl-s"><span class="pl-pds">"</span>Type an integer<span class="pl-pds">"</span></span>
+integers[current_integer] <span class="pl-k">=</span> gets.to_i
+    current_integer<span class="pl-k">+=</span><span class="pl-c1">1</span>
+<span class="pl-k">end</span> 
 
-integers.sort.each do |this_int|
+integers.sort.each <span class="pl-k">do </span>|<span class="pl-smi">this_int</span>|
     puts this_int
-end 
-</code></pre>
+<span class="pl-k">end</span> </pre></div>
 
-<h2 id="for-loop">
+<h2>
 <a id="for-loop" class="anchor" href="#for-loop" aria-hidden="true"><span class="octicon octicon-link"></span></a>For Loop</h2>
 
 <ul>
-<li>El For loop es igual al method each.</li>
+<li>El For loop es igual al method each. </li>
 <li>un ejemplo practico seria.</li>
 </ul>
 
-<pre><code>bags = ["suitcase", "messenger bag", "satcher", "backpack"]
-for bag_types in bags do
+<div class="highlight highlight-source-ruby"><pre>bags <span class="pl-k">=</span> [<span class="pl-s"><span class="pl-pds">"</span>suitcase<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>messenger bag<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>satcher<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>backpack<span class="pl-pds">"</span></span>]
+<span class="pl-k">for</span> bag_types <span class="pl-k">in</span> bags <span class="pl-k">do</span>
     puts bag_type
-end
-</code></pre>
+<span class="pl-k">end</span></pre></div>
 
 <ul>
-<li>los for loop no solo pueden usarse en una collection es posible usarse en rangos</li>
+<li>los for loop no solo pueden usarse en una collection es posible usarse en rangos </li>
 <li>Existen 2 tipos de rangos Inclusive y Exclusive la diferencia es que en Exclusive se excluye el ultimo valor del rango.</li>
 </ul>
 
-<pre><code>#inclusive range:
- for variable in 1..4 do
+<div class="highlight highlight-source-ruby"><pre><span class="pl-c">#inclusive range:</span>
+    <span class="pl-k">for</span> variable <span class="pl-k">in</span> <span class="pl-c1">1</span>..<span class="pl-c1">4</span> <span class="pl-k">do</span>
         ...
-    end 
-</code></pre>
+    <span class="pl-k">end</span> </pre></div>
 
-<pre><code>#Exclusive range:
- for variable in 1...4 do
+<div class="highlight highlight-source-ruby"><pre><span class="pl-c">#Exclusive range:</span>
+    <span class="pl-k">for</span> variable <span class="pl-k">in</span> <span class="pl-c1">1</span>...<span class="pl-c1">4</span> <span class="pl-k">do</span>
         ...
-    end 
-</code></pre>
+    <span class="pl-k">end</span> </pre></div>
 
 <ul>
-<li>Es recomendable dejar de usar for loop y usar <strong>.each</strong>
-</li>
-</ul>
-
-<h2 id="loop-control">
-<a id="loop-control" class="anchor" href="#loop-control" aria-hidden="true"><span class="octicon octicon-link"></span></a>Loop Control</h2>
-
-<ul>
+<li>Es recomendable dejar de usar for loop y usar <strong>.each</strong> 
+## Loop Control </li>
 <li>Con el key <strong>next</strong> podemos saltar las demas interacciones del loop y saltar a la proxima iteracion.</li>
 </ul>
 
-<pre><code>my_var = 0
-while my_var &lt; 10 do
-    if my_var == 3 
-        my_var += 1 
-        next
-    end 
+<div class="highlight highlight-source-ruby"><pre>my_var <span class="pl-k">=</span> <span class="pl-c1">0</span>
+<span class="pl-k">while</span> my_var <span class="pl-k">&lt;</span> <span class="pl-c1">10</span> <span class="pl-k">do</span>
+    <span class="pl-k">if</span> my_var <span class="pl-k">==</span> <span class="pl-c1">3</span> 
+        my_var <span class="pl-k">+=</span> <span class="pl-c1">1</span> 
+        <span class="pl-k">next</span>
+    <span class="pl-k">end</span> 
     puts my_var
-    my_var += 1
-end
-</code></pre>
+    my_var <span class="pl-k">+=</span> <span class="pl-c1">1</span>
+<span class="pl-k">end</span></pre></div>
 
 <ul>
 <li>Creo que salta a una proximo block.</li>
 <li>La key <strong>redo</strong> va al comienzo del codigo asi la condicion sea verdadera o falsa.</li>
 </ul>
 
-<pre><code>my_var = 0
-while my_var &lt; 10 do
+<div class="highlight highlight-source-ruby"><pre>my_var <span class="pl-k">=</span> <span class="pl-c1">0</span>
+<span class="pl-k">while</span> my_var <span class="pl-k">&lt;</span> <span class="pl-c1">10</span> <span class="pl-k">do</span>
     puts my_var
-    if my_var == 3 
-        my_var = 10 
-        redo
-    end 
-    my_var += 1
-end
-</code></pre>
+    <span class="pl-k">if</span> my_var <span class="pl-k">==</span> <span class="pl-c1">3</span> 
+        my_var <span class="pl-k">=</span> <span class="pl-c1">10</span> 
+        <span class="pl-k">redo</span>
+    <span class="pl-k">end</span> 
+    my_var <span class="pl-k">+=</span> <span class="pl-c1">1</span>
+<span class="pl-k">end</span></pre></div>
 
 <ul>
 <li>Seria como un if exit en bash.</li>
-<li>Lo extraño es que el redo seguira corriendo asi el statement del while sea falso…</li>
+<li>Lo extraño es que el redo seguira corriendo asi el statement del while sea falso....</li>
 <li>El redo no le veo mucho sentido.</li>
 <li>El key <strong>break</strong> sale del loop inmediatamente y es uno de los mas importantes.</li>
 </ul>
 
-<pre><code>puts "Type something to continue. Or nothing to quit"
-while a = gets do
+<div class="highlight highlight-source-ruby"><pre>puts <span class="pl-s"><span class="pl-pds">"</span>Type something to continue. Or nothing to quit<span class="pl-pds">"</span></span>
+<span class="pl-k">while</span> a <span class="pl-k">=</span> gets <span class="pl-k">do</span>
 
-    if a =="\n" 
-        break
-    end 
-    puts a #Imprime la misma linea vacia.
-end 
-</code></pre>
+    <span class="pl-k">if</span> a <span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">"</span><span class="pl-cce">\n</span><span class="pl-pds">"</span></span> 
+        <span class="pl-k">break</span>
+    <span class="pl-k">end</span> 
+    puts a <span class="pl-c">#Imprime la misma linea vacia.</span>
+<span class="pl-k">end</span> </pre></div>
 
 <ul>
 <li>Ejemplo final</li>
 </ul>
 
-<pre><code>total = 0 
-puts "Input your numbers" 
-while input = gets do #Declaramos 
- if input == "\n" 
-        break 
-    end 
-    total = total + input.to_f 
-    puts "running total = #{total}" 
-end 
+<div class="highlight highlight-source-ruby"><pre>total <span class="pl-k">=</span> <span class="pl-c1">0</span> 
+puts <span class="pl-s"><span class="pl-pds">"</span>Input your numbers<span class="pl-pds">"</span></span> 
+<span class="pl-k">while</span> input <span class="pl-k">=</span> gets <span class="pl-k">do </span><span class="pl-c">#Declaramos </span>
+    <span class="pl-k">if</span> input <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-cce">\n</span><span class="pl-pds">"</span></span> 
+        <span class="pl-k">break</span> 
+    <span class="pl-k">end</span> 
+    total <span class="pl-k">=</span> total <span class="pl-k">+</span> input.to_f 
+    puts <span class="pl-s"><span class="pl-pds">"</span>running total = <span class="pl-pse">#{</span><span class="pl-s1">total</span><span class="pl-pse"><span class="pl-s1">}</span></span><span class="pl-pds">"</span></span> 
+<span class="pl-k">end</span> 
 
-puts "Total: #{total}" 
-</code></pre>
+puts <span class="pl-s"><span class="pl-pds">"</span>Total: <span class="pl-pse">#{</span><span class="pl-s1">total</span><span class="pl-pse"><span class="pl-s1">}</span></span><span class="pl-pds">"</span></span> </pre></div>
 
-<h2 id="methods">
+<h2>
 <a id="methods" class="anchor" href="#methods" aria-hidden="true"><span class="octicon octicon-link"></span></a>Methods</h2>
 
 <ul>
-<li>Los Methods son como funtions en otro lenguaje antiguo<br>
+<li>Los Methods son como funtions en otro lenguaje antiguo
 <img src="https://i.imgur.com/AipGJrz.png" alt="enter image description here">
 </li>
-<li>Method Example</li>
+<li> Method Example</li>
 </ul>
 
-<pre><code>def hello_user 
-    puts "Enter your Name" 
-    username = gets
-    puts "Hello " + username
-end 
+<div class="highlight highlight-source-ruby"><pre><span class="pl-k">def</span> <span class="pl-en">hello_user</span> 
+    puts <span class="pl-s"><span class="pl-pds">"</span>Enter your Name<span class="pl-pds">"</span></span> 
+    username <span class="pl-k">=</span> gets
+    puts <span class="pl-s"><span class="pl-pds">"</span>Hello <span class="pl-pds">"</span></span> <span class="pl-k">+</span> username
+<span class="pl-k">end</span> 
 
-hello_user #Llamamos al metodo.
-</code></pre>
+hello_user <span class="pl-c">#Llamamos al metodo.</span></pre></div>
 
 <ul>
 <li>Los methods devuelven objects.</li>
@@ -689,58 +541,55 @@ hello_user #Llamamos al metodo.
 <li>Por defecto un method puede arrojar un nil pero esto puede cambiar</li>
 </ul>
 
-<pre><code>def hello_user 
-    puts "Enter your Name" 
-    username = gets
-    "Hello #{username.chop}." 
-end 
-hello_user
-</code></pre>
+<div class="highlight highlight-source-ruby"><pre><span class="pl-k">def</span> <span class="pl-en">hello_user</span> 
+    puts <span class="pl-s"><span class="pl-pds">"</span>Enter your Name<span class="pl-pds">"</span></span> 
+    username <span class="pl-k">=</span> gets
+    <span class="pl-s"><span class="pl-pds">"</span>Hello <span class="pl-pse">#{</span><span class="pl-s1">username.chop</span><span class="pl-pse"><span class="pl-s1">}</span></span>.<span class="pl-pds">"</span></span> 
+<span class="pl-k">end</span> 
+hello_user</pre></div>
 
 <ul>
 <li>Esta vez debe arrojar el object del username.</li>
 <li>Es util cuando un method arroja un boolean.</li>
 </ul>
 
-<pre><code>def hello_user 
-    puts "Enter your Name" 
-    username = gets
-    if username != "\n" 
-        "Hello #{username.chop}."
- else
-        false 
-end
-</code></pre>
+<div class="highlight highlight-source-ruby"><pre><span class="pl-k">def</span> <span class="pl-en">hello_user</span> 
+    puts <span class="pl-s"><span class="pl-pds">"</span>Enter your Name<span class="pl-pds">"</span></span> 
+    username <span class="pl-k">=</span> gets
+    <span class="pl-k">if</span> username <span class="pl-k">!=</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-cce">\n</span><span class="pl-pds">"</span></span> 
+        <span class="pl-s"><span class="pl-pds">"</span>Hello <span class="pl-pse">#{</span><span class="pl-s1">username.chop</span><span class="pl-pse"><span class="pl-s1">}</span></span>.<span class="pl-pds">"</span></span>
+    <span class="pl-k">else</span>
+        <span class="pl-c1">false</span> 
+<span class="pl-k">end</span></pre></div>
 
 <p>Ejemplo de unas recetas de comida.</p>
 
-<pre><code>def get_ingredient
-    new_ingredient = gets
-    if new_ingredient != "\n"
+<div class="highlight highlight-source-ruby"><pre><span class="pl-k">def</span> <span class="pl-en">get_ingredient</span>
+    new_ingredient <span class="pl-k">=</span> gets
+    <span class="pl-k">if</span> new_ingredient <span class="pl-k">!=</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-cce">\n</span><span class="pl-pds">"</span></span>
         new_ingredient 
-    else 
-        false
-    end
-end
-ingredients = [] 
-puts "Input your Ingredients"
-while my_ingredient  = get_ingredient do  #Comparamos que sea una string.
- ingredients[ingredients.count] = my_ingredient
-end 
-puts "Input your instructions"
-instructions = gets
-puts "Ingredients:"
+    <span class="pl-k">else</span> 
+        <span class="pl-c1">false</span>
+    <span class="pl-k">end</span>
+<span class="pl-k">end</span>
+ingredients <span class="pl-k">=</span> [] 
+puts <span class="pl-s"><span class="pl-pds">"</span>Input your Ingredients<span class="pl-pds">"</span></span>
+<span class="pl-k">while</span> my_ingredient  <span class="pl-k">=</span> get_ingredient <span class="pl-k">do  </span><span class="pl-c">#Comparamos que sea una string.</span>
+    ingredients[ingredients.count] <span class="pl-k">=</span> my_ingredient
+<span class="pl-k">end</span> 
+puts <span class="pl-s"><span class="pl-pds">"</span>Input your instructions<span class="pl-pds">"</span></span>
+instructions <span class="pl-k">=</span> gets
+puts <span class="pl-s"><span class="pl-pds">"</span>Ingredients:<span class="pl-pds">"</span></span>
 puts ingredients
-puts "Instructions:"
+puts <span class="pl-s"><span class="pl-pds">"</span>Instructions:<span class="pl-pds">"</span></span>
 puts instructions
+</pre></div>
 
-</code></pre>
-
-<h2 id="methods-continued">
+<h2>
 <a id="methods-continued" class="anchor" href="#methods-continued" aria-hidden="true"><span class="octicon octicon-link"></span></a>Methods Continued</h2>
 
 <ul>
-<li>Es posible usar metodos en un argumento.<br>
+<li>Es posible usar metodos en un argumento.
 <img src="https://i.imgur.com/G8BiPcK.png" alt="enter image description here">
 </li>
 <li>Es recomendable declarar el method seguido de declarar la variable que se usara como argumento.</li>
@@ -748,102 +597,90 @@ puts instructions
 <li>El yield seria como el punto de stdin en donde el method introduce su resultudado.</li>
 </ul>
 
-<pre><code>def my_method 
-        puts "executing your code..."
-        yield
-        puts "done"
-end
-my_method do  
-        puts 2 + 2 
-end 
+<div class="highlight highlight-source-ruby"><pre><span class="pl-k">def</span> <span class="pl-en">my_method</span> 
+        puts <span class="pl-s"><span class="pl-pds">"</span>executing your code...<span class="pl-pds">"</span></span>
+        <span class="pl-k">yield</span>
+        puts <span class="pl-s"><span class="pl-pds">"</span>done<span class="pl-pds">"</span></span>
+<span class="pl-k">end</span>
+my_method <span class="pl-k">do  </span>
+        puts <span class="pl-c1">2</span> <span class="pl-k">+</span> <span class="pl-c1">2</span> 
+<span class="pl-k">end</span> 
 
-######RESULTADO#########
+<span class="pl-c">######RESULTADO#########</span>
 executing your code...
-4
-done
-</code></pre>
+<span class="pl-c1">4</span>
+done</pre></div>
 
 <ul>
 <li>Ejercicio que multiplica 2 numeros.</li>
 </ul>
 
-<pre><code>def multiply_this a. b
-    total = a * b 
-    if total &lt; 0 
-        false
-    else
+<div class="highlight highlight-source-ruby"><pre><span class="pl-k">def</span> <span class="pl-en">multiply_this</span> <span class="pl-smi">a</span>. b
+    total <span class="pl-k">=</span> a <span class="pl-k">*</span> b 
+    <span class="pl-k">if</span> total <span class="pl-k">&lt;</span> <span class="pl-c1">0</span> 
+        <span class="pl-c1">false</span>
+    <span class="pl-k">else</span>
         total
-    end
-end
+    <span class="pl-k">end</span>
+<span class="pl-k">end</span>
 
-user_input = []
-puts "Input two numbers" 
-while user_number = gets do
-    user_input[user_input.count] = user_number.to_f 
-    if user_input.count == 2 
-        break 
-    end
-end 
-if result = multiply_this(user_input[0], user_input[1]) #Declara una variable en el mismo statement
-                                                     #Arroja los argumentos al method desde un array.
- puts result 
-else 
-    puts "Invalid Input"
-end
-</code></pre>
+user_input <span class="pl-k">=</span> []
+puts <span class="pl-s"><span class="pl-pds">"</span>Input two numbers<span class="pl-pds">"</span></span> 
+<span class="pl-k">while</span> user_number <span class="pl-k">=</span> gets <span class="pl-k">do</span>
+    user_input[user_input.count] <span class="pl-k">=</span> user_number.to_f 
+    <span class="pl-k">if</span> user_input.count <span class="pl-k">==</span> <span class="pl-c1">2</span> 
+        <span class="pl-k">break</span> 
+    <span class="pl-k">end</span>
+<span class="pl-k">end</span> 
+<span class="pl-k">if</span> result <span class="pl-k">=</span> multiply_this(user_input[<span class="pl-c1">0</span>], user_input[<span class="pl-c1">1</span>]) <span class="pl-c">#Declara una variable en el mismo statement</span>
+                                                        <span class="pl-c">#Arroja los argumentos al method desde un array.</span>
+    puts result 
+<span class="pl-k">else</span> 
+    puts <span class="pl-s"><span class="pl-pds">"</span>Invalid Input<span class="pl-pds">"</span></span>
+<span class="pl-k">end</span></pre></div>
 
-<h2 id="using-classes">
+<h2>
 <a id="using-classes" class="anchor" href="#using-classes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Using Classes</h2>
 
 <ul>
-<li>Se podria definir a una clase con una descripcion de un objeto.</li>
-<li>
-</ul>
-
-<p><img src="https://i.imgur.com/lLDtoa4.png" alt="enter image description here"></p>
-
-<ul>
+<li>Se podria definir a una clase con una descripcion de un objeto.
+*
+<img src="https://i.imgur.com/lLDtoa4.png" alt="enter image description here">
+</li>
 <li>En ruby todo es un object por tanto todo pertenece a una clase.</li>
 <li>Array, Hash, y todos los tipos de variables son clases.</li>
-<li>Podemos decir que <strong>my_array = [ ] == my_array = Array.new</strong>
-</li>
-<li>Las clases pueden contener dos tipos de cosas; variables definitions y method definitiios por ejemplo la class array incluye el method each.</li>
+<li>Podemos decir que <strong>my_array = [ ] == my_array = Array.new</strong> </li>
+<li>Las clases pueden contener dos tipos de cosas; variables definitions y method definitiios por ejemplo la class array incluye el method each. </li>
 <li>Las instances al parecer representan un objeto en especifico en vez de tipos de objetos.</li>
-<li>La mayor ventaja es que puedo tener multiples instancias de una misma clase.<br>
-<code>my_first_array = Array.new</code><br>
+<li>La mayor ventaja es que puedo tener multiples instancias de una misma clase.
+<code>my_first_array = Array.new</code>
 <code>my_second_array = Array.new</code>
 </li>
 <li>Las clases pueden incluir propiedades de otras clases.</li>
-<li>Si usamos <strong>.class</strong> revelara a que clase pertenece pero si usamos <strong>.superclass</strong> revelara la clase de quien hereda.<br>
+<li>Si usamos <strong>.class</strong> revelara a que clase pertenece pero si usamos <strong>.superclass</strong> revelara la clase de quien hereda.
 <img src="https://i.imgur.com/IlDo4qI.png" alt="enter image description here">
 </li>
-<li>Vemos que si usamos el 1.class.superclass.superclass.superclass vemos es un Object como todo en ruby.</li>
-</ul>
-
-<h2 id="creating-classes">
-<a id="creating-classes" class="anchor" href="#creating-classes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating Classes</h2>
-
-<ul>
-<li>Para crear una class la syntax seria<br>
-<code>class Class_name</code><br>
-<code>...</code><br>
+<li>Vemos que si usamos el 1.class.superclass.superclass.superclass vemos es un Object como todo en ruby.
+## Creating Classes </li>
+<li>Para crear una class la syntax seria
+<code>class Class_name</code>
+<code>...</code>
 <code>end</code>
 </li>
 <li>Es importante que la clase este escrita en Mayuscula.</li>
-<li>Para inicializar un object es importante que la clase ya estre creada.<br>
+<li>Para inicializar un object es importante que la clase ya estre creada.
 <code>my_object = Class_name.new</code>
 </li>
 <li>attr_accesor = attribute accesor el cual es un method para crear ins</li>
 <li>Ejemplo de como crear una tabla</li>
 </ul>
 
-<pre><code>class Table 
-    attr_accessor :height, :width, :length
-end
-</code></pre>
+<div class="highlight highlight-source-ruby"><pre><span class="pl-k">class</span> <span class="pl-en">Table</span> 
+    <span class="pl-k">attr_accessor</span> <span class="pl-c1">:height</span>, <span class="pl-c1">:width</span>, <span class="pl-c1">:length</span>
+<span class="pl-k">end</span></pre></div>
 
 <ul>
-<li>el attr_accesor crea method para acceder a la data que le damos como argumento</li>
+<li>el attr_accesor crea method para acceder a la data que le damos como argumento </li>
 <li>El accesor crea una instance variable que son las creadas con <a href="https://github.com/variable" class="user-mention">@variable</a>
 </li>
 <li>Cada vez que creemos clases crearemos instance variable dentro de ellas.</li>
@@ -858,156 +695,136 @@ end
 <li>en este caso la extendemos para introducir un nuevo method.</li>
 </ul>
 
-<pre><code>class Table
-    def cost
-        @length * @width * 5 + 4 * @height * 2 
-    end
-end
-</code></pre>
+<div class="highlight highlight-source-ruby"><pre><span class="pl-k">class</span> <span class="pl-en">Table</span>
+    <span class="pl-k">def</span> <span class="pl-en">cost</span>
+        <span class="pl-smi">@length</span> <span class="pl-k">*</span> <span class="pl-smi">@width</span> <span class="pl-k">*</span> <span class="pl-c1">5</span> <span class="pl-k">+</span> <span class="pl-c1">4</span> <span class="pl-k">*</span> <span class="pl-smi">@height</span> <span class="pl-k">*</span> <span class="pl-c1">2</span> 
+    <span class="pl-k">end</span>
+<span class="pl-k">end</span></pre></div>
 
 <ul>
 <li>Vemos como llamamos nuestras variables con @ al ser Instance variables.</li>
-<li>Luego podemos llamar a la instancia que llamamos que se llama con el method que definimos al final <strong>t.cost</strong>
-</li>
-</ul>
-
-<h2 id="creating-classes-continued">
-<a id="creating-classes-continued" class="anchor" href="#creating-classes-continued" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating Classes Continued</h2>
-
-<ul>
+<li>Luego podemos llamar a la instancia que llamamos que se llama con el method que definimos al final <strong>t.cost</strong> 
+## Creating Classes Continued</li>
 <li>Es posible definir un initialize method cada vez que instanciamos o instanstiate una class y colocarles unos valores por defecto.</li>
 <li>Ejemplo</li>
 </ul>
 
-<pre><code>class table 
-    def initialize ilength = 3, iwidth = 3, iheight = 3
-        @lenght = ilength
-        @width = iwidth
-        @height = iheight
-    end
-end
-</code></pre>
+<div class="highlight highlight-source-ruby"><pre><span class="pl-k">class</span> <span class="pl-en">table</span> 
+    <span class="pl-k">def</span> <span class="pl-en">initialize</span> <span class="pl-smi">ilength</span> <span class="pl-k">=</span> <span class="pl-c1">3</span>, <span class="pl-smi">iwidth</span> <span class="pl-k">=</span> <span class="pl-c1">3</span>, <span class="pl-smi">iheight</span> <span class="pl-k">=</span> <span class="pl-c1">3</span>
+        <span class="pl-smi">@lenght</span> <span class="pl-k">=</span> ilength
+        <span class="pl-smi">@width</span> <span class="pl-k">=</span> iwidth
+        <span class="pl-smi">@height</span> <span class="pl-k">=</span> iheight
+    <span class="pl-k">end</span>
+<span class="pl-k">end</span></pre></div>
 
 <ul>
-<li>Es importante saber que estamos extendiendo la class Table de la antigua clase por eso existe <a href="https://github.com/lenght" class="user-mention">@lenght</a> y los otros.</li>
-<li>Despues cuando inicializamos la clase con .new tendremos los valores 3 o incluso podemos añadir nuevos valores manteniendo los ordenes.<br>
+<li> Es importante saber que estamos extendiendo la class Table de la antigua clase por eso existe <a href="https://github.com/lenght" class="user-mention">@lenght</a> y los otros.</li>
+<li>Despues cuando inicializamos la clase con .new tendremos los valores 3 o incluso podemos añadir nuevos valores manteniendo los ordenes.
 <img src="https://i.imgur.com/YPgV8g0.png" alt="enter image description here">
 </li>
 <li>Si usamos el private dentro de un method solo sera accesible para la class code no fuera de ella.</li>
 <li>Luego si usaramos <strong>my_table.table_top_area</strong> nos daria error al llamar a un method privado.</li>
-<li>Por defecto todas las clases heredan de la clase object. en caso de querer heredar de otra usamos</li>
+<li>Por defecto todas las clases heredan de la clase object. en caso de querer heredar de otra usamos </li>
 <li>
-<code>class LibraryTable &lt; Table</code> al momento de declarar la clase de esta manera podemos llamar a los private method.</li>
+<code>class LibraryTable  &lt; Table</code> al momento de declarar la clase de esta manera podemos llamar a los private method.</li>
 <li>Al igual que el private existe el protected que es usado para comparar al asegurar que el method solo es acedido desde sibling object o child objects</li>
 <li>Ejercicio de Cuenta Bancaria.</li>
 </ul>
 
-<pre><code>class AccountBook
-    def initialize 
-        @ledger = []
-        @current_total = 0 
-    end 
-    def add_money amount, memo = ""
-        @ledger[@ledger.count] = [amount, memo]
-        @current_total += amount
-    end
-    def subtract_money amount, memo =""
-        @ledger[@ledger.count] = [amount * -1, memo]
-        @current_total -= amount
-    end
-    
-    def printout 
-        tab = 0
-        puts "Amount:\tMemo:\tTotal:"
-        @ledger.each do |line|
-            tab += line[0]
-            puts "#{line[0]}\t#{line[1]}\t#{tab}"
-     end
-    end
-end
-</code></pre>
+<div class="highlight highlight-source-ruby"><pre><span class="pl-k">class</span> <span class="pl-en">AccountBook</span>
+    <span class="pl-k">def</span> <span class="pl-en">initialize</span> 
+        <span class="pl-smi">@ledger</span> <span class="pl-k">=</span> []
+        <span class="pl-smi">@current_total</span> <span class="pl-k">=</span> <span class="pl-c1">0</span> 
+    <span class="pl-k">end</span> 
+    <span class="pl-k">def</span> <span class="pl-en">add_money</span> <span class="pl-smi">amount</span>, <span class="pl-smi">memo</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>
+        <span class="pl-smi">@ledger</span>[<span class="pl-smi">@ledger</span>.count] <span class="pl-k">=</span> [amount, memo]
+        <span class="pl-smi">@current_total</span> <span class="pl-k">+=</span> amount
+    <span class="pl-k">end</span>
+    <span class="pl-k">def</span> <span class="pl-en">subtract_money</span> <span class="pl-smi">amount</span>, <span class="pl-smi">memo</span> <span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>
+        <span class="pl-smi">@ledger</span>[<span class="pl-smi">@ledger</span>.count] <span class="pl-k">=</span> [amount <span class="pl-k">*</span> <span class="pl-k">-</span><span class="pl-c1">1</span>, memo]
+        <span class="pl-smi">@current_total</span> <span class="pl-k">-=</span> amount
+    <span class="pl-k">end</span>
 
-<h2 id="variable-scope-revisited">
+    <span class="pl-k">def</span> <span class="pl-en">printout</span> 
+        tab <span class="pl-k">=</span> <span class="pl-c1">0</span>
+        puts <span class="pl-s"><span class="pl-pds">"</span>Amount:<span class="pl-cce">\t</span>Memo:<span class="pl-cce">\t</span>Total:<span class="pl-pds">"</span></span>
+        <span class="pl-smi">@ledger</span>.each <span class="pl-k">do </span>|<span class="pl-smi">line</span>|
+            tab <span class="pl-k">+=</span> line[<span class="pl-c1">0</span>]
+            puts <span class="pl-s"><span class="pl-pds">"</span><span class="pl-pse">#{</span><span class="pl-s1">line[<span class="pl-c1">0</span>]</span><span class="pl-pse"><span class="pl-s1">}</span></span><span class="pl-cce">\t</span><span class="pl-pse">#{</span><span class="pl-s1">line[<span class="pl-c1">1</span>]</span><span class="pl-pse"><span class="pl-s1">}</span></span><span class="pl-cce">\t</span><span class="pl-pse">#{</span><span class="pl-s1">tab</span><span class="pl-pse"><span class="pl-s1">}</span></span><span class="pl-pds">"</span></span>
+        <span class="pl-k">end</span>
+    <span class="pl-k">end</span>
+<span class="pl-k">end</span></pre></div>
+
+<h2>
 <a id="variable-scope-revisited" class="anchor" href="#variable-scope-revisited" aria-hidden="true"><span class="octicon octicon-link"></span></a>Variable Scope Revisited</h2>
 
 <ul>
-<li>Existen 4 tipos de Variable
+<li>Existen 4 tipos de Variable 
+
 <ul>
 <li>local: comienzan con una letra en minuscula, y es solo accesible en el method que la definio</li>
 <li>instance: Comienzan con @ pueden accederse en cualquier method de una instancia de una clase</li>
 <li>class: Empiezan con doble @@ estan disponible en cualquier instancia y method de la clase.</li>
 <li>global: Comienzan con $ y pueden llamarse en cualquier parte del codigo, se usan en general para los settings.</li>
 </ul>
-
-<p></p>
 </li>
 <li>Un ejemplo de local Variables seria.</li>
 </ul>
 
-<pre><code>class Square
+<div class="highlight highlight-source-ruby"><pre><span class="pl-k">class</span> <span class="pl-en">Square</span>
 
-    def initialize 
-     @length = 10 #Declaramos una instance variable 
- end
+    <span class="pl-k">def</span> <span class="pl-en">initialize</span> 
+     <span class="pl-smi">@length</span> <span class="pl-k">=</span> <span class="pl-c1">10</span> <span class="pl-c">#Declaramos una instance variable </span>
+    <span class="pl-k">end</span>
 
-    def printout 
-        length = @lenght * 2 #Declaramos una variable local que es *2 a la instance variable parecieran iguales pero son diferentes. 
-     puts "Length = #{length}." 
- end  
-end 
-</code></pre>
+    <span class="pl-k">def</span> <span class="pl-en">printout</span> 
+        length <span class="pl-k">=</span> <span class="pl-smi">@lenght</span> <span class="pl-k">*</span> <span class="pl-c1">2</span> <span class="pl-c">#Declaramos una variable local que es *2 a la instance variable parecieran iguales pero son diferentes. </span>
+        puts <span class="pl-s"><span class="pl-pds">"</span>Length = <span class="pl-pse">#{</span><span class="pl-s1">length</span><span class="pl-pse"><span class="pl-s1">}</span></span>.<span class="pl-pds">"</span></span> 
+    <span class="pl-k">end</span>  
+<span class="pl-k">end</span> </pre></div>
 
 <ul>
 <li>Es importante diferencia que las local variables solo estan disponible entre method.</li>
-<li>Las global variables son buenas para settings globales.</li>
-</ul>
-
-<h2 id="class-methods-and-singletons">
-<a id="class-methods-and-singletons" class="anchor" href="#class-methods-and-singletons" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class Methods and Singletons</h2>
-
-<ul>
+<li>Las global variables son buenas para settings globales.
+##  Class Methods and Singletons </li>
 <li>Recordemos que la instancia de una clase es para un objeto en especifico de una clase las Class Methods hacen referencia a toda la clase util para operar todos los miembros, variables, o database cleanup methods.</li>
-<li>Creamos una clase pero esta vez creamos un method llamado self.Nombre-del-metodo-que-queramos luego en cualquier lugar de la class podremos llamar al method.</li>
-<li>Para llamar al class method usamos <strong>Class_Name.method_name</strong> ==&gt; Tree.trim</li>
-<li>Los Singleton Methods estan definidos para solo un objecto.</li>
-<li>Lo definimos luego de crear una variable || objeto luego definimos un metodo con el nombre de la variable seguido del nombre del methodo que creamos.<br>
-Ejemplo <code>abc = "abc" ---&gt; def abc.twice</code>
-</li>
+<li>Creamos una clase pero esta vez creamos un method llamado self.Nombre-del-metodo-que-queramos luego en cualquier lugar de la class podremos llamar al method. </li>
+<li>Para llamar al class method usamos <strong>Class_Name.method_name</strong> ==&gt; Tree.trim </li>
+<li>Los Singleton Methods estan definidos para solo un objecto. </li>
+<li> Lo definimos luego de crear una variable || objeto luego definimos un metodo con el nombre de la variable seguido del nombre del methodo que creamos.
+Ejemplo <code>abc = "abc" ---&gt; def abc.twice</code> </li>
 <li>Tambien es posible usar una Singleton Class util si solo queremos crear una class importante pero unica.</li>
-<li>Existen 2 maneras de crear una Singleton Classes
+<li>Existen 2 maneras de crear una Singleton Classes 
+
 <ul>
 <li>Crear una blank class y operar en ella.</li>
 </ul>
-
-<p></p>
 </li>
 </ul>
 
-<pre><code>####Creamos una blank class.
-class TableCorporation
-end 
-##Listo sin nada dentro.
-class &lt;&lt; TableCorporation 
-#Todo lo que este dentro sera una singletons class.
-end 
-# -OR-
-class TableCorporation
-    class &lt;&lt; self 
-    ....##todo lo que este dentro sera una singletons class.
- end
-end
-</code></pre>
+<div class="highlight highlight-source-ruby"><pre><span class="pl-c">####Creamos una blank class.</span>
+<span class="pl-k">class</span> <span class="pl-en">TableCorporation</span>
+<span class="pl-k">end</span> 
+<span class="pl-c">##Listo sin nada dentro.</span>
+<span class="pl-k">class</span> <span class="pl-en"><span class="pl-smi">&lt;&lt; TableCorporation</span></span> 
+<span class="pl-c">#Todo lo que este dentro sera una singletons class.</span>
+<span class="pl-k">end</span> 
+<span class="pl-c"># -OR-</span>
+<span class="pl-k">class</span> <span class="pl-en">TableCorporation</span>
+    <span class="pl-k">class</span> <span class="pl-en"><span class="pl-smi">&lt;&lt; self</span></span> 
+    ....<span class="pl-c">##todo lo que este dentro sera una singletons class.</span>
+    <span class="pl-k">end</span>
+<span class="pl-k">end</span></pre></div>
 
 <pre><code>- Crear una instancia de una clase y extenderla.
 </code></pre>
 
-<pre><code>####Creamos una class.
-TableCorporation = Object.new
-class &lt;&lt; TableCorporation
+<div class="highlight highlight-source-ruby"><pre><span class="pl-c">####Creamos una class.</span>
+<span class="pl-c1">TableCorporation</span> <span class="pl-k">=</span> <span class="pl-c1">Object</span>.<span class="pl-k">new</span>
+<span class="pl-k">class</span> <span class="pl-en"><span class="pl-smi">&lt;&lt; TableCorporation</span></span>
 ....
-end 
-
-</code></pre>
+<span class="pl-k">end</span> 
+</pre></div>
 
 <ul>
 <li>Vemos que estamos operandolos methods en una clase porque todo en ruby es un object.</li>
@@ -1015,49 +832,35 @@ end
 <li>Crear una class para envio de paquetes</li>
 </ul>
 
-<pre><code>class Box
-    attr_accessor :length, :width, :height, :weight, :distance
-    def initialize
-    @@materials_cost = 0.01 #1 cent per square inch
- @@rate = 00.1 # 1 cent per pount per mile
- end 
-    def self.rate= rate
-    @@rate = rate
-    end
-    def self.materials_cost= cost
-    @@materials_cost = cost
-    end
-    def package_cost
-    (@length * @width * 2 + @length * @height * 2 + @width * height * 2) * @@materials_cost + @weight * @distance * @@rate 
-    end
-end
-</code></pre>
+<div class="highlight highlight-source-ruby"><pre><span class="pl-k">class</span> <span class="pl-en">Box</span>
+    <span class="pl-k">attr_accessor</span> <span class="pl-c1">:length</span>, <span class="pl-c1">:width</span>, <span class="pl-c1">:height</span>, <span class="pl-c1">:weight</span>, <span class="pl-c1">:distance</span>
+    <span class="pl-k">def</span> <span class="pl-en">initialize</span>
+    <span class="pl-smi">@@materials_cost</span> <span class="pl-k">=</span> <span class="pl-c1">0.01</span> <span class="pl-c">#1 cent per square inch</span>
+    <span class="pl-smi">@@rate</span> <span class="pl-k">=</span> <span class="pl-c1">00.1</span> <span class="pl-c"># 1 cent per pount per mile</span>
+    <span class="pl-k">end</span> 
+    <span class="pl-k">def</span> <span class="pl-en">self.rate=</span> <span class="pl-smi">rate</span>
+    <span class="pl-smi">@@rate</span> <span class="pl-k">=</span> rate
+    <span class="pl-k">end</span>
+    <span class="pl-k">def</span> <span class="pl-en">self.materials_cost=</span> <span class="pl-smi">cost</span>
+    <span class="pl-smi">@@materials_cost</span> <span class="pl-k">=</span> cost
+    <span class="pl-k">end</span>
+    <span class="pl-k">def</span> <span class="pl-en">package_cost</span>
+    (<span class="pl-smi">@length</span> <span class="pl-k">*</span> <span class="pl-smi">@width</span> <span class="pl-k">*</span> <span class="pl-c1">2</span> <span class="pl-k">+</span> <span class="pl-smi">@length</span> <span class="pl-k">*</span> <span class="pl-smi">@height</span> <span class="pl-k">*</span> <span class="pl-c1">2</span> <span class="pl-k">+</span> <span class="pl-smi">@width</span> <span class="pl-k">*</span> height <span class="pl-k">*</span> <span class="pl-c1">2</span>) <span class="pl-k">*</span> <span class="pl-smi">@@materials_cost</span> <span class="pl-k">+</span> <span class="pl-smi">@weight</span> <span class="pl-k">*</span> <span class="pl-smi">@distance</span> <span class="pl-k">*</span> <span class="pl-smi">@@rate</span> 
+    <span class="pl-k">end</span>
+<span class="pl-k">end</span></pre></div>
 
 <ul>
 <li>Crear una instancia de una clase y extenderla.</li>
 </ul>
 
-<p></p>
-<pre><code>####Creamos una class.
-TableCorporation = Object.new
-class &lt;&lt; TableCorporation
+<div class="highlight highlight-source-ruby"><pre><span class="pl-c">####Creamos una class.</span>
+<span class="pl-c1">TableCorporation</span> <span class="pl-k">=</span> <span class="pl-c1">Object</span>.<span class="pl-k">new</span>
+<span class="pl-k">class</span> <span class="pl-en"><span class="pl-smi">&lt;&lt; TableCorporation</span></span>
 ....
-end 
-</code></pre>
-</div>
-
+<span class="pl-k">end</span> </pre></div>
       </section>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Ruby-linuxacademy-notes maintained by <a href="https://github.com/Joncak">Joncak</a></p>
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
     
-
   </body>
 </html>
