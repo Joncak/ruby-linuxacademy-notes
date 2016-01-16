@@ -1,57 +1,1051 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <title>Ruby-linuxacademy-notes by Joncak</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Ruby-linuxacademy-notes by Joncak</title>
   </head>
+
   <body>
-    <section class="page-header">
-      <h1 class="project-name">Ruby-linuxacademy-notes</h1>
-      <h2 class="project-tagline">Notas del Curso con repo de los proyectos.</h2>
-      <a href="https://github.com/Joncak/ruby-linuxacademy-notes" class="btn">View on GitHub</a>
-      <a href="https://github.com/Joncak/ruby-linuxacademy-notes/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/Joncak/ruby-linuxacademy-notes/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+    <header>
+      <div class="container">
+        <h1>Ruby-linuxacademy-notes</h1>
+        <h2>Notas del Curso con repo de los proyectos.</h2>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+        <section id="downloads">
+          <a href="https://github.com/Joncak/ruby-linuxacademy-notes/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/Joncak/ruby-linuxacademy-notes/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/Joncak/ruby-linuxacademy-notes" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+    <div class="container">
+      <section id="main_content">
+        <p>&lt;!DOCTYPE html&gt;
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+</p>
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating pages manually</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+Introduction to Ruby Programming Language on Linux.
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+<p>
+</p><div>
+<div><ul>
+<li>
+<a href="#getting-ready-to-code">Getting Ready to Code</a><ul>
+<li><a href="#course-overview">Course Overview</a></li>
+<li><a href="#whats-a-programming-language">What's a Programming Language?</a></li>
+<li><a href="#installing-ruby">Installing Ruby</a></li>
+<li><a href="#the-ruby-environment">The Ruby Environment</a></li>
+</ul>
+</li>
+<li>
+<a href="#learning-basic-ruby-syntax">Learning Basic Ruby Syntax</a><ul>
+<li><a href="#hello-world">Hello World!</a></li>
+<li><a href="#variables">Variables</a></li>
+<li><a href="#types-of-variables">Types of Variables</a></li>
+<li><a href="#basic-math">Basic Math</a></li>
+<li><a href="#conditionals">Conditionals</a></li>
+<li><a href="#conditionals-continued">Conditionals Continued</a></li>
+<li><a href="#iterators">Iterators</a></li>
+<li><a href="#arrays-and-hashes">Arrays and Hashes</a></li>
+<li><a href="#strings">Strings</a></li>
+<li><a href="#while-loop">While Loop</a></li>
+<li><a href="#for-loop">For Loop</a></li>
+<li><a href="#loop-control">Loop Control</a></li>
+<li><a href="#methods">Methods</a></li>
+<li><a href="#methods-continued">Methods Continued</a></li>
+<li><a href="#using-classes">Using Classes</a></li>
+<li><a href="#creating-classes">Creating Classes</a></li>
+<li><a href="#creating-classes-continued">Creating Classes Continued</a></li>
+<li><a href="#variable-scope-revisited">Variable Scope Revisited</a></li>
+<li><a href="#class-methods-and-singletons">Class Methods and Singletons</a></li>
+</ul>
+</li>
+</ul></div>
+<h1 id="getting-ready-to-code">
+<a id="getting-ready-to-code" class="anchor" href="#getting-ready-to-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getting Ready to Code</h1>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/Joncak/ruby-linuxacademy-notes">Ruby-linuxacademy-notes</a> is maintained by <a href="https://github.com/Joncak">Joncak</a>.</span>
+<h2 id="course-overview">
+<a id="course-overview" class="anchor" href="#course-overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Course Overview</h2>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+<ul>
+<li>Lo da un instructor que no habia visto antes.</li>
+<li>Es bastante Completo.</li>
+</ul>
 
-    </section>
+<h2 id="whats-a-programming-language">
+<a id="whats-a-programming-language" class="anchor" href="#whats-a-programming-language" aria-hidden="true"><span class="octicon octicon-link"></span></a>What’s a Programming Language?</h2>
 
-  
+<ul>
+<li>binary es lo que lee el procesador, despues hicieron asembly pero este fue reemplado por Fortran y Cobol</li>
+<li>C y C++ son Compiled Languages mientras que Ruby, php, javascript son Scripting languages</li>
+<li>Existen 2 styles de Programar o la manera de organizarse el codigo
+<ul>
+<li>Procedular es similar a los script corren desde el comienzo al final</li>
+<li>Object Oriented; son objetos se definen maneras de manipularlo</li>
+</ul>
+
+<p></p>
+</li>
+<li>Ruby pertenece a los 2 estilos pero es facil de leer,</li>
+<li>Uno de los framework mas famosos de ruby es ruby on rails</li>
+<li>El curso esta enfocado en scripting task.</li>
+</ul>
+
+<h2 id="installing-ruby">
+<a id="installing-ruby" class="anchor" href="#installing-ruby" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installing Ruby</h2>
+
+<ul>
+<li>Existen 2 maneras de instalar ruby
+<ul>
+<li>Packages managers
+<ul>
+<li>
+<strong>Centos</strong>  <code>yum install ruby irb rubygems</code>
+</li>
+<li>
+<strong>Ubuntu</strong> <code>apt-get install ruby</code>
+</li>
+</ul>
+
+<p></p>
+</li>
+<li>RVM
+
+<ul>
+<li>el cual es un proceso manual pero con mas opciones.</li>
+<li>Para instalar RVM buscamos en su pagina <a href="rvm.io">rvm.io</a> y lo descargamos luego lanzamos; <code>rvm install ruby</code>
+</li>
+</ul>
+
+<p></p>
+</li>
+</ul>
+</li>
+</ul>
+
+<h2 id="the-ruby-environment">
+<a id="the-ruby-environment" class="anchor" href="#the-ruby-environment" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Ruby Environment</h2>
+
+<ul>
+<li>Los  archivos de scripts son .rb</li>
+<li>Usaremos 3 programas con ruby
+<ul>
+<li>ruby: compilador</li>
+<li>irb: shell</li>
+<li>gem: instalador de extensiones y plugins.</li>
+</ul>
+
+<p></p>
+</li>
+<li>puts == echo e igual es recomendable usar el shibang para evitar usar el <code>ruby example.rb</code>
+</li>
+<li>IRB es una shell como la que tiene python donde todos los comandos se comunican con el compilador.</li>
+<li>cuando sale =&gt; nill es totalmente normal.</li>
+<li>gems es util para instalar librerias, y muchas funcionalidades extras.</li>
+</ul>
+
+<h1 id="learning-basic-ruby-syntax">
+<a id="learning-basic-ruby-syntax" class="anchor" href="#learning-basic-ruby-syntax" aria-hidden="true"><span class="octicon octicon-link"></span></a>Learning Basic Ruby Syntax</h1>
+
+<h2 id="hello-world">
+<a id="hello-world" class="anchor" href="#hello-world" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hello World!</h2>
+
+<ul>
+<li>puts es un method y el Hello word es un argumento</li>
+<li>Methods= encapsulate code can use arguments</li>
+<li>Para multiples arguments separarlos con “,”</li>
+<li>Otra forma es usando <strong>();</strong> example; <code>puts("Hello World")</code>
+</li>
+</ul>
+
+<h2 id="variables">
+<a id="variables" class="anchor" href="#variables" aria-hidden="true"><span class="octicon octicon-link"></span></a>Variables</h2>
+
+<ul>
+<li>Crear las variables es muy similar a otros lenguajes pero añade nuevas clasificaciones.</li>
+<li>Existen varias variables que pueden empezar con @ o @@ incluso $</li>
+<li>Las vaiables pueden ser; locales, instance, certain places,</li>
+<li>ademas de variables existen constantes que no pueden cambiar y empiezAN con MAYUSCULA.</li>
+<li>esta manera de declarar variables solo funciona para numeros. a no ser que usemos ’ ’ para string.</li>
+</ul>
+
+<h2 id="types-of-variables">
+<a id="types-of-variables" class="anchor" href="#types-of-variables" aria-hidden="true"><span class="octicon octicon-link"></span></a>Types of Variables</h2>
+
+<ul>
+<li>Existen 2 varios tipos de variables
+<ul>
+<li>Litterals = le damos valores explicitamente</li>
+<li>Variables= los cuales son link a valores.</li>
+</ul>
+
+<p></p>
+</li>
+<li>Los mas famosos son:
+
+<ul>
+<li>
+<strong>numbers:</strong> en los numbers existen integers y floats, dentro de Integers existe bignum o fixnum</li>
+<li>
+<strong>booleans:</strong> son los tipicos true o false.</li>
+<li>
+<strong>strings:</strong> son los textos</li>
+<li>
+<strong>arrays:</strong> su caracteristica es que son filas y estas pueden ser acumuladas pero colocadas al final si no se quiere reemplazar al anterior.
+<ul>
+<li>ex: <code>array = [1,2,3]</code>
+</li>
+<li>en caso de añadir otro mas usamos <code>array [3]= 4</code>
+</li>
+<li>En algunos casos es necesario crear un array limpio primero.</li>
+<li>todos los valores deben estar en el <code>[]</code> y separarse por <code>,</code>
+</li>
+</ul>
+
+<p></p>
+</li>
+<li>
+<strong>hashes:</strong> similas al array pero en vez de listar por numeros listamos por keys
+
+<ul>
+<li>
+<code>my_hash = "string" =&gt; "my string", "my number" =&gt; 4</code> luego llamamos con <code>my_hast ["simple string"]</code>
+</li>
+</ul>
+
+<p></p>
+</li>
+</ul>
+</li>
+<li>Podemos asignar un valor a un array o hash existente puede crearse vacio con <code>my array []</code>
+</li>
+</ul>
+
+<h2 id="basic-math">
+<a id="basic-math" class="anchor" href="#basic-math" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic Math</h2>
+
+<ul>
+<li>las math son las nomales pero existe una % que es modulus no se que hace.</li>
+<li>si existe una variable podemos llamarla sin los <code>""</code> o <code>''</code>
+</li>
+<li>podemos convertir diferentes variables por ejemplo de numbers to string.</li>
+<li>
+<code>.to_s</code>  a String.</li>
+<li>
+<code>.to_i</code>  a entero o integer.</li>
+<li>
+<code>.to_f</code> to float o decimal
+<ul>
+<li>ex: <code>irb(main):001:0&gt; 12.to_f =&gt; 12.0</code>
+</li>
+</ul>
+
+<p></p>
+</li>
+</ul>
+
+<h2 id="conditionals">
+<a id="conditionals" class="anchor" href="#conditionals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conditionals</h2>
+
+<ul>
+<li>Los conditionals son buenisimos.<br>
+ex:</li>
+</ul>
+
+<pre><code> if my_variable &gt; 10
+puts my_variable
+end
+</code></pre>
+
+<ul>
+<li>los extended conditional es cuando añadimos un <strong>else</strong>, el cual corre si la condicion es falsa.</li>
+<li>tambien podemos usamos <strong>elsif</strong> que permite añadir otro if si la primera condicion es falsa.</li>
+<li>En ruby podemos usar conditionals en una sola linea por ejemplo<br>
+<code>puts "Big Number" if my_variable &gt; 10</code><br>
+<code>puts "Small Number" unless my_variable &gt; 10</code>
+</li>
+<li>la condicion <strong>unless</strong> tambien podemos usarla y es una negacion hasta que ocurra.</li>
+</ul>
+
+<pre><code>unless my_variable &gt; 10
+    puts my_variable
+end 
+</code></pre>
+
+<ul>
+<li>Otra forma de hacerlo en una linea es usando la <strong>Ternary Statement</strong>
+<ul>
+<li>Regular Statement.</li>
+</ul>
+
+<p></p>
+</li>
+</ul>
+
+<pre><code>if my_variable &gt; 10
+    puts "big"
+else 
+    puts "small" 
+end 
+</code></pre>
+
+<pre><code>* Ternary Statement 
+</code></pre>
+
+<p><code>my_variable &gt; 10 ? puts("big") : puts("small")</code><br>
+<strong>#donde el <code>?</code> seria un <strong>if</strong> y el <code>:</code> un <strong>else</strong>, es necesario usar parentesis.</strong></p>
+
+<ul>
+<li>tambien existen los comparison tests donde
+<ul>
+<li>a &gt; b</li>
+<li>a &lt; b</li>
+<li>a &gt;= b</li>
+<li>a &lt;= b</li>
+<li>a == b</li>
+</ul>
+
+<p></p>
+</li>
+<li>Un ex de un script con condiciones.</li>
+</ul>
+
+<pre><code>puts "Input an integer"
+user_input = gets.to_i
+if user_input &gt; 10
+output = user_input * user_inpu
+else
+output = user_input * 2
+end
+puts output
+</code></pre>
+
+<h2 id="conditionals-continued">
+<a id="conditionals-continued" class="anchor" href="#conditionals-continued" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conditionals Continued</h2>
+
+<ul>
+<li>Un script puede tener varios elsif de ser necesario.</li>
+<li><img src="https://i.imgur.com/mwL2jhB.png" alt="Puedes tener varios elsif"></li>
+<li>Pero es posible usar case que es mucho mas facil de leer.<br>
+<img src="https://i.imgur.com/MhtxIPN.png" alt="enter image description here">
+</li>
+<li>Es posible añadir multiples conditionals
+<ul>
+<li>Boolean AND<br>
+<code>if my_var == 10 &amp;&amp; your_var == 5</code> Aca se tienen que cumplir los 2 para que se pueda correr.</li>
+<li>Boolean OR<br>
+<code>if my_var ==10 || your_var == 5</code> Aca si cualquier de los 2 es verdadero el statement se aplica.</li>
+<li>Boolean NOT<br>
+<code>if my_var != 10</code> Si no es igual se lanza el statement.</li>
+<li>Ejemplo con condicionales.</li>
+</ul>
+
+<p></p>
+</li>
+</ul>
+
+<pre><code>!#/usr/bin/ruby
+
+puts "En tu escritorio tienes un Telefono (Y/N)"
+case gets
+        when "Y\n"
+                phone  = true
+        when "N\n"
+                phone = false
+end
+puts "En tu escritorio tienes un lapiz (Y/N)"
+case gets
+        when "Y\n"
+                pencil  = true
+        when "N\n"
+                pencil = false
+end
+puts "You have a phone" if phone
+puts "You have a pencil" if pencil
+</code></pre>
+
+<h2 id="iterators">
+<a id="iterators" class="anchor" href="#iterators" aria-hidden="true"><span class="octicon octicon-link"></span></a>Iterators</h2>
+
+<ul>
+<li>Los iterators son ideales para operar cada miembro de una variable por ejemplo los array si quisieramos mostrar cada miembro de un array seria como:</li>
+</ul>
+
+<p><strong>Whitout Iterators</strong><br>
+     <code>puts first_five_integers [0]</code><br>
+     <code>puts first_five_integers [1]</code><br>
+     <code>puts first_five_integers [2]</code><br>
+     <code>puts first_five_integers [3]</code><br>
+     <code>puts first_five_integers [4]</code></p>
+
+<p><strong>Con Iterators seria mucha mas sencillo</strong></p>
+
+<pre><code>first_five_integers.each do |my_integer| 
+    puts my_integer 
+end 
+</code></pre>
+
+<ul>
+<li>Como each es considerado un Method puede usar arguments pero en este caso el puede usar un block como argument para que tome el block of code debemos colocarlo entre do y end</li>
+<li>Tambien es posible suplir una variable al block con each definiendola entre | | despues del do y tendra el valor de cada miembro del array.</li>
+<li>Los iterators actuan como loops para collections.</li>
+<li>DRY = Do not Repeat Yourself</li>
+<li>El earch puede ser usado en un hash y se pueden suplir 2 variables la key y el value.</li>
+</ul>
+
+<pre><code>my_hash = {"orange" =&gt; true, "banana" =&gt; false}
+my_hash.each do | key,value | 
+...
+end 
+</code></pre>
+
+<p>Ejemplo de una lista de Compras</p>
+
+<pre><code>#!/usr/bin/ruby                                                                                                                                       
+# Declaramos el Hash con los Valores que queramos incluir.                                                                                            
+grocery_items = { "oranges" =&gt; false, "bananas" =&gt; false}                                                                                             
+#Preguntamos lo que necesitamos usando el Iterator y suplimos 2 variables item y need_for_item.                                                       
+puts "Do you need:"                                                                                                                                   
+grocery_items.each do | item, need_for_item | # Aqui solo declaramos y preparamos las variables.                                                      
+  puts item + "? (Y/N)" #Aqui es donde preguntamos.                                                                                                   
+  case gets                                                                                                                                           
+    when "Y\n"                                                                                                                                        
+      grocery_items [item] = true                                                                                                                     
+    when "N\n"                                                                                                                                        
+      grocery_items [item] = false                                                                                                                    
+  end                                                                                                                                                 
+end                                                                                                                                                   
+puts "Here's your list:"                                                                                                                              
+grocery_items.each do | item, need_for_item |                                                                                                         
+  puts item if need_for_item #Aqui aun no entiendo pero supongo que si es true se cumple la sentencia.                                                
+end    
+</code></pre>
+
+<h2 id="arrays-and-hashes">
+<a id="arrays-and-hashes" class="anchor" href="#arrays-and-hashes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Arrays and Hashes</h2>
+
+<ul>
+<li>Podemos usar nested arrays los cuales se llaman multi.dimensional arrays.<br>
+<code>childhood_games_played = [["make believe", true], ["tag", false]]</code>
+</li>
+<li>Luego para llamar a los juegos debemos usar</li>
+</ul>
+
+<pre><code>childhood_games_played [0][0]
+    "make believe"
+childhood_games_played [1][0]
+    "tag"
+childhood_games_played [0][1]
+    "true"
+childhood_games_played [1][1]
+    "false"
+</code></pre>
+
+<ul>
+<li>Los hashes tambien pueden ser nested.<br>
+<code>cocktails = {"martini" =&gt; {"vodka" =&gt; true, "gin" =&gt; false}}</code>
+</li>
+<li>Luego para llamarlos usamos</li>
+</ul>
+
+<pre><code>cocktails["martini"]["vodka"]
+    true
+cocktails["martini"]["gin"]
+    false 
+</code></pre>
+
+<ul>
+<li>Podemos ordenar los array con el method <strong>.sort</strong><br>
+<code>my_array.sort</code> devuelve un array ordenado.</li>
+<li>En caso de querer ordenar el array en uso usamos <code>mv_array.sort!</code>
+</li>
+<li>Es posible al igual que con each usarlo en block of codes</li>
+</ul>
+
+<pre><code>my_array.sort do |a,b| 
+
+    a &lt;=&gt; b #Diferencia quien esta primero.
+ 
+end 
+</code></pre>
+
+<ul>
+<li>Para saber la longitud de un array es posible usar los method<br>
+<strong>.count</strong><br>
+<strong>.length</strong>
+</li>
+<li>Para revisar si en el array existe un valor es posible usar el method <strong>.include</strong><br>
+<code>first_five_integers.include? 1</code> Es importante usar el ?</li>
+<li>Es posible crear un array a partir de otro usando <strong>.map</strong> un buen ejemplo es para calcular si unos numeros de un array son pares o impares.</li>
+</ul>
+
+<pre><code>my_array = [1,2,3]
+odd_or_even = my_array.map do |element|
+    element % 2 == 0 ? "even" : "odd"
+    end  
+</code></pre>
+
+<h2 id="strings">
+<a id="strings" class="anchor" href="#strings" aria-hidden="true"><span class="octicon octicon-link"></span></a>Strings</h2>
+
+<ul>
+<li>Se deben colocar las String en <code>""</code> para que ruby pueda identificarlas.</li>
+<li>Llamar las variables es diferente que en bash para llamar una variable entre strings usamos #{variable}<br>
+<code>puts "Your have #{bank_account} dollars."</code>Sin necesita de cerrar los " podemos incluir la variable e imprimir en una sola linea.</li>
+<li>Podemos sumar operaciones matematicas dentro de lo {}<br>
+<code>puts "Tiene en total #{banesco + bod}bs. entre todas sus cuentas."</code>
+</li>
+<li>Podemos sumar string con string en caso de ser string y integers daria error.</li>
+<li>En caso de querer cambiar el string a Capital usamos <strong>.upcase</strong> si fuera a lower seria <strong>.downcase</strong>
+</li>
+<li>En caso de dividir una string usamos <strong>.split(" ")</strong> donde el space es el delimitador luego se convertiria en un array.</li>
+<li>Un pequeño ejemplo</li>
+</ul>
+
+<pre><code>puts "Insertar una frase"
+palabra = gets
+numero_palabras = palabra.split(" ").count
+puts "Tu frase tiene #{numero_palabras} palabra#{numero_palabras == 1 ? "." : "s."}"
+</code></pre>
+
+<h2 id="while-loop">
+<a id="while-loop" class="anchor" href="#while-loop" aria-hidden="true"><span class="octicon octicon-link"></span></a>While Loop</h2>
+
+<ul>
+<li>Repite una seccion del codigo hasta que una condicion sea cierta, para evitar que sea un loop infinito la variable debe cambiar.</li>
+<li>La syntax seria while condition do y un end es bueno añadir un contador al final de la sentencia ex: my_integer += 1</li>
+</ul>
+
+<pre><code>my_var = 10
+
+while my_var &lt; 30 do 
+    puts "my_var = #{my_var}"
+ my_var += 1 
+end 
+</code></pre>
+
+<ul>
+<li>El program block va entre el do y el end.</li>
+<li>Es importante saber que si usamos " " no podemos llamar una variable a no ser que usemos el #{}.</li>
+<li>loops and arrays: the perfect match.</li>
+<li>El until loop es totalmente inverso.</li>
+<li>Un ejemplo de ordenar los enteros.</li>
+</ul>
+
+<pre><code>integers = []
+current_integer = 0 
+while current_integer &lt; 10 do 
+puts "Type an integer"
+integers[current_integer] = gets.to_i
+    current_integer+=1
+end 
+
+integers.sort.each do |this_int|
+    puts this_int
+end 
+</code></pre>
+
+<h2 id="for-loop">
+<a id="for-loop" class="anchor" href="#for-loop" aria-hidden="true"><span class="octicon octicon-link"></span></a>For Loop</h2>
+
+<ul>
+<li>El For loop es igual al method each.</li>
+<li>un ejemplo practico seria.</li>
+</ul>
+
+<pre><code>bags = ["suitcase", "messenger bag", "satcher", "backpack"]
+for bag_types in bags do
+    puts bag_type
+end
+</code></pre>
+
+<ul>
+<li>los for loop no solo pueden usarse en una collection es posible usarse en rangos</li>
+<li>Existen 2 tipos de rangos Inclusive y Exclusive la diferencia es que en Exclusive se excluye el ultimo valor del rango.</li>
+</ul>
+
+<pre><code>#inclusive range:
+ for variable in 1..4 do
+        ...
+    end 
+</code></pre>
+
+<pre><code>#Exclusive range:
+ for variable in 1...4 do
+        ...
+    end 
+</code></pre>
+
+<ul>
+<li>Es recomendable dejar de usar for loop y usar <strong>.each</strong>
+</li>
+</ul>
+
+<h2 id="loop-control">
+<a id="loop-control" class="anchor" href="#loop-control" aria-hidden="true"><span class="octicon octicon-link"></span></a>Loop Control</h2>
+
+<ul>
+<li>Con el key <strong>next</strong> podemos saltar las demas interacciones del loop y saltar a la proxima iteracion.</li>
+</ul>
+
+<pre><code>my_var = 0
+while my_var &lt; 10 do
+    if my_var == 3 
+        my_var += 1 
+        next
+    end 
+    puts my_var
+    my_var += 1
+end
+</code></pre>
+
+<ul>
+<li>Creo que salta a una proximo block.</li>
+<li>La key <strong>redo</strong> va al comienzo del codigo asi la condicion sea verdadera o falsa.</li>
+</ul>
+
+<pre><code>my_var = 0
+while my_var &lt; 10 do
+    puts my_var
+    if my_var == 3 
+        my_var = 10 
+        redo
+    end 
+    my_var += 1
+end
+</code></pre>
+
+<ul>
+<li>Seria como un if exit en bash.</li>
+<li>Lo extraño es que el redo seguira corriendo asi el statement del while sea falso…</li>
+<li>El redo no le veo mucho sentido.</li>
+<li>El key <strong>break</strong> sale del loop inmediatamente y es uno de los mas importantes.</li>
+</ul>
+
+<pre><code>puts "Type something to continue. Or nothing to quit"
+while a = gets do
+
+    if a =="\n" 
+        break
+    end 
+    puts a #Imprime la misma linea vacia.
+end 
+</code></pre>
+
+<ul>
+<li>Ejemplo final</li>
+</ul>
+
+<pre><code>total = 0 
+puts "Input your numbers" 
+while input = gets do #Declaramos 
+ if input == "\n" 
+        break 
+    end 
+    total = total + input.to_f 
+    puts "running total = #{total}" 
+end 
+
+puts "Total: #{total}" 
+</code></pre>
+
+<h2 id="methods">
+<a id="methods" class="anchor" href="#methods" aria-hidden="true"><span class="octicon octicon-link"></span></a>Methods</h2>
+
+<ul>
+<li>Los Methods son como funtions en otro lenguaje antiguo<br>
+<img src="https://i.imgur.com/AipGJrz.png" alt="enter image description here">
+</li>
+<li>Method Example</li>
+</ul>
+
+<pre><code>def hello_user 
+    puts "Enter your Name" 
+    username = gets
+    puts "Hello " + username
+end 
+
+hello_user #Llamamos al metodo.
+</code></pre>
+
+<ul>
+<li>Los methods devuelven objects.</li>
+<li>En el irb podemos definir los scripts tal cual y cuando cambiemos de 001:0 a 002:1 es porque estamos dentro de un statement.</li>
+<li>Por defecto un method puede arrojar un nil pero esto puede cambiar</li>
+</ul>
+
+<pre><code>def hello_user 
+    puts "Enter your Name" 
+    username = gets
+    "Hello #{username.chop}." 
+end 
+hello_user
+</code></pre>
+
+<ul>
+<li>Esta vez debe arrojar el object del username.</li>
+<li>Es util cuando un method arroja un boolean.</li>
+</ul>
+
+<pre><code>def hello_user 
+    puts "Enter your Name" 
+    username = gets
+    if username != "\n" 
+        "Hello #{username.chop}."
+ else
+        false 
+end
+</code></pre>
+
+<p>Ejemplo de unas recetas de comida.</p>
+
+<pre><code>def get_ingredient
+    new_ingredient = gets
+    if new_ingredient != "\n"
+        new_ingredient 
+    else 
+        false
+    end
+end
+ingredients = [] 
+puts "Input your Ingredients"
+while my_ingredient  = get_ingredient do  #Comparamos que sea una string.
+ ingredients[ingredients.count] = my_ingredient
+end 
+puts "Input your instructions"
+instructions = gets
+puts "Ingredients:"
+puts ingredients
+puts "Instructions:"
+puts instructions
+
+</code></pre>
+
+<h2 id="methods-continued">
+<a id="methods-continued" class="anchor" href="#methods-continued" aria-hidden="true"><span class="octicon octicon-link"></span></a>Methods Continued</h2>
+
+<ul>
+<li>Es posible usar metodos en un argumento.<br>
+<img src="https://i.imgur.com/G8BiPcK.png" alt="enter image description here">
+</li>
+<li>Es recomendable declarar el method seguido de declarar la variable que se usara como argumento.</li>
+<li>Para doblar un numero seria my_var **  <em>=2</em>*</li>
+<li>El yield seria como el punto de stdin en donde el method introduce su resultudado.</li>
+</ul>
+
+<pre><code>def my_method 
+        puts "executing your code..."
+        yield
+        puts "done"
+end
+my_method do  
+        puts 2 + 2 
+end 
+
+######RESULTADO#########
+executing your code...
+4
+done
+</code></pre>
+
+<ul>
+<li>Ejercicio que multiplica 2 numeros.</li>
+</ul>
+
+<pre><code>def multiply_this a. b
+    total = a * b 
+    if total &lt; 0 
+        false
+    else
+        total
+    end
+end
+
+user_input = []
+puts "Input two numbers" 
+while user_number = gets do
+    user_input[user_input.count] = user_number.to_f 
+    if user_input.count == 2 
+        break 
+    end
+end 
+if result = multiply_this(user_input[0], user_input[1]) #Declara una variable en el mismo statement
+                                                     #Arroja los argumentos al method desde un array.
+ puts result 
+else 
+    puts "Invalid Input"
+end
+</code></pre>
+
+<h2 id="using-classes">
+<a id="using-classes" class="anchor" href="#using-classes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Using Classes</h2>
+
+<ul>
+<li>Se podria definir a una clase con una descripcion de un objeto.</li>
+<li>
+</ul>
+
+<p><img src="https://i.imgur.com/lLDtoa4.png" alt="enter image description here"></p>
+
+<ul>
+<li>En ruby todo es un object por tanto todo pertenece a una clase.</li>
+<li>Array, Hash, y todos los tipos de variables son clases.</li>
+<li>Podemos decir que <strong>my_array = [ ] == my_array = Array.new</strong>
+</li>
+<li>Las clases pueden contener dos tipos de cosas; variables definitions y method definitiios por ejemplo la class array incluye el method each.</li>
+<li>Las instances al parecer representan un objeto en especifico en vez de tipos de objetos.</li>
+<li>La mayor ventaja es que puedo tener multiples instancias de una misma clase.<br>
+<code>my_first_array = Array.new</code><br>
+<code>my_second_array = Array.new</code>
+</li>
+<li>Las clases pueden incluir propiedades de otras clases.</li>
+<li>Si usamos <strong>.class</strong> revelara a que clase pertenece pero si usamos <strong>.superclass</strong> revelara la clase de quien hereda.<br>
+<img src="https://i.imgur.com/IlDo4qI.png" alt="enter image description here">
+</li>
+<li>Vemos que si usamos el 1.class.superclass.superclass.superclass vemos es un Object como todo en ruby.</li>
+</ul>
+
+<h2 id="creating-classes">
+<a id="creating-classes" class="anchor" href="#creating-classes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating Classes</h2>
+
+<ul>
+<li>Para crear una class la syntax seria<br>
+<code>class Class_name</code><br>
+<code>...</code><br>
+<code>end</code>
+</li>
+<li>Es importante que la clase este escrita en Mayuscula.</li>
+<li>Para inicializar un object es importante que la clase ya estre creada.<br>
+<code>my_object = Class_name.new</code>
+</li>
+<li>attr_accesor = attribute accesor el cual es un method para crear ins</li>
+<li>Ejemplo de como crear una tabla</li>
+</ul>
+
+<pre><code>class Table 
+    attr_accessor :height, :width, :length
+end
+</code></pre>
+
+<ul>
+<li>el attr_accesor crea method para acceder a la data que le damos como argumento</li>
+<li>El accesor crea una instance variable que son las creadas con <a href="https://github.com/variable" class="user-mention">@variable</a>
+</li>
+<li>Cada vez que creemos clases crearemos instance variable dentro de ellas.</li>
+<li>Es importante saber que crea method para acceder a esas instance variables donde ese method corresponde al nombre.</li>
+<li>Cada vez que usamos <code>:</code> se crea un <strong>symbol</strong> en ruby.</li>
+<li>Podemos crear una class en un archivo y luego llamarla desde irb con <code>irv -r ./table.rb</code>
+</li>
+<li>cuando usamos <code>t = Table.new</code> estamos creando una instancia de la clase.</li>
+<li>Luego podemos colocar datos en la instancia t siguiendo de la instance variable ex: <code>t.height = 5</code>
+</li>
+<li>Es posible extender una Class ya creada usando el class con el nombre de la class y añadiendo lo nuevo dentro.</li>
+<li>en este caso la extendemos para introducir un nuevo method.</li>
+</ul>
+
+<pre><code>class Table
+    def cost
+        @length * @width * 5 + 4 * @height * 2 
+    end
+end
+</code></pre>
+
+<ul>
+<li>Vemos como llamamos nuestras variables con @ al ser Instance variables.</li>
+<li>Luego podemos llamar a la instancia que llamamos que se llama con el method que definimos al final <strong>t.cost</strong>
+</li>
+</ul>
+
+<h2 id="creating-classes-continued">
+<a id="creating-classes-continued" class="anchor" href="#creating-classes-continued" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating Classes Continued</h2>
+
+<ul>
+<li>Es posible definir un initialize method cada vez que instanciamos o instanstiate una class y colocarles unos valores por defecto.</li>
+<li>Ejemplo</li>
+</ul>
+
+<pre><code>class table 
+    def initialize ilength = 3, iwidth = 3, iheight = 3
+        @lenght = ilength
+        @width = iwidth
+        @height = iheight
+    end
+end
+</code></pre>
+
+<ul>
+<li>Es importante saber que estamos extendiendo la class Table de la antigua clase por eso existe <a href="https://github.com/lenght" class="user-mention">@lenght</a> y los otros.</li>
+<li>Despues cuando inicializamos la clase con .new tendremos los valores 3 o incluso podemos añadir nuevos valores manteniendo los ordenes.<br>
+<img src="https://i.imgur.com/YPgV8g0.png" alt="enter image description here">
+</li>
+<li>Si usamos el private dentro de un method solo sera accesible para la class code no fuera de ella.</li>
+<li>Luego si usaramos <strong>my_table.table_top_area</strong> nos daria error al llamar a un method privado.</li>
+<li>Por defecto todas las clases heredan de la clase object. en caso de querer heredar de otra usamos</li>
+<li>
+<code>class LibraryTable &lt; Table</code> al momento de declarar la clase de esta manera podemos llamar a los private method.</li>
+<li>Al igual que el private existe el protected que es usado para comparar al asegurar que el method solo es acedido desde sibling object o child objects</li>
+<li>Ejercicio de Cuenta Bancaria.</li>
+</ul>
+
+<pre><code>class AccountBook
+    def initialize 
+        @ledger = []
+        @current_total = 0 
+    end 
+    def add_money amount, memo = ""
+        @ledger[@ledger.count] = [amount, memo]
+        @current_total += amount
+    end
+    def subtract_money amount, memo =""
+        @ledger[@ledger.count] = [amount * -1, memo]
+        @current_total -= amount
+    end
+    
+    def printout 
+        tab = 0
+        puts "Amount:\tMemo:\tTotal:"
+        @ledger.each do |line|
+            tab += line[0]
+            puts "#{line[0]}\t#{line[1]}\t#{tab}"
+     end
+    end
+end
+</code></pre>
+
+<h2 id="variable-scope-revisited">
+<a id="variable-scope-revisited" class="anchor" href="#variable-scope-revisited" aria-hidden="true"><span class="octicon octicon-link"></span></a>Variable Scope Revisited</h2>
+
+<ul>
+<li>Existen 4 tipos de Variable
+<ul>
+<li>local: comienzan con una letra en minuscula, y es solo accesible en el method que la definio</li>
+<li>instance: Comienzan con @ pueden accederse en cualquier method de una instancia de una clase</li>
+<li>class: Empiezan con doble @@ estan disponible en cualquier instancia y method de la clase.</li>
+<li>global: Comienzan con $ y pueden llamarse en cualquier parte del codigo, se usan en general para los settings.</li>
+</ul>
+
+<p></p>
+</li>
+<li>Un ejemplo de local Variables seria.</li>
+</ul>
+
+<pre><code>class Square
+
+    def initialize 
+     @length = 10 #Declaramos una instance variable 
+ end
+
+    def printout 
+        length = @lenght * 2 #Declaramos una variable local que es *2 a la instance variable parecieran iguales pero son diferentes. 
+     puts "Length = #{length}." 
+ end  
+end 
+</code></pre>
+
+<ul>
+<li>Es importante diferencia que las local variables solo estan disponible entre method.</li>
+<li>Las global variables son buenas para settings globales.</li>
+</ul>
+
+<h2 id="class-methods-and-singletons">
+<a id="class-methods-and-singletons" class="anchor" href="#class-methods-and-singletons" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class Methods and Singletons</h2>
+
+<ul>
+<li>Recordemos que la instancia de una clase es para un objeto en especifico de una clase las Class Methods hacen referencia a toda la clase util para operar todos los miembros, variables, o database cleanup methods.</li>
+<li>Creamos una clase pero esta vez creamos un method llamado self.Nombre-del-metodo-que-queramos luego en cualquier lugar de la class podremos llamar al method.</li>
+<li>Para llamar al class method usamos <strong>Class_Name.method_name</strong> ==&gt; Tree.trim</li>
+<li>Los Singleton Methods estan definidos para solo un objecto.</li>
+<li>Lo definimos luego de crear una variable || objeto luego definimos un metodo con el nombre de la variable seguido del nombre del methodo que creamos.<br>
+Ejemplo <code>abc = "abc" ---&gt; def abc.twice</code>
+</li>
+<li>Tambien es posible usar una Singleton Class util si solo queremos crear una class importante pero unica.</li>
+<li>Existen 2 maneras de crear una Singleton Classes
+<ul>
+<li>Crear una blank class y operar en ella.</li>
+</ul>
+
+<p></p>
+</li>
+</ul>
+
+<pre><code>####Creamos una blank class.
+class TableCorporation
+end 
+##Listo sin nada dentro.
+class &lt;&lt; TableCorporation 
+#Todo lo que este dentro sera una singletons class.
+end 
+# -OR-
+class TableCorporation
+    class &lt;&lt; self 
+    ....##todo lo que este dentro sera una singletons class.
+ end
+end
+</code></pre>
+
+<pre><code>- Crear una instancia de una clase y extenderla.
+</code></pre>
+
+<pre><code>####Creamos una class.
+TableCorporation = Object.new
+class &lt;&lt; TableCorporation
+....
+end 
+
+</code></pre>
+
+<ul>
+<li>Vemos que estamos operandolos methods en una clase porque todo en ruby es un object.</li>
+<li>Los attritubes y methods se crear igual que en cualquier otra clase.</li>
+<li>Crear una class para envio de paquetes</li>
+</ul>
+
+<pre><code>class Box
+    attr_accessor :length, :width, :height, :weight, :distance
+    def initialize
+    @@materials_cost = 0.01 #1 cent per square inch
+ @@rate = 00.1 # 1 cent per pount per mile
+ end 
+    def self.rate= rate
+    @@rate = rate
+    end
+    def self.materials_cost= cost
+    @@materials_cost = cost
+    end
+    def package_cost
+    (@length * @width * 2 + @length * @height * 2 + @width * height * 2) * @@materials_cost + @weight * @distance * @@rate 
+    end
+end
+</code></pre>
+
+<ul>
+<li>Crear una instancia de una clase y extenderla.</li>
+</ul>
+
+<p></p>
+<pre><code>####Creamos una class.
+TableCorporation = Object.new
+class &lt;&lt; TableCorporation
+....
+end 
+</code></pre>
+</div>
+
+      </section>
+    </div>
+
+    
   </body>
 </html>
